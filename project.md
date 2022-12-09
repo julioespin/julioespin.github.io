@@ -1,6 +1,3 @@
----
-
-### General Analytics Projects
 
 ---
 #### [DoorDash Marketing Analytics](https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/)
