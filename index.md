@@ -5,8 +5,8 @@
 ### General Analytics Projects
 
 ---
-#### [DoorDash Marketing Analytics]([https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith](https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/)
-[<img src="images/DoorDash Analytics.png"/>]([https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith](https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/)
+#### [DoorDash Marketing Analytics]([https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/])
+[<img src="images/DoorDash Analytics.png"/>]([https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/])
 DoorDash analysis to learn about their sales and how marketing campaigns affect their sales.
 
 ---
