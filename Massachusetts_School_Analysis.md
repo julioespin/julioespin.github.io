@@ -20,7 +20,7 @@ After my analysis, I learned that:
 
 ## The Data
 
-The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861 rows and connected to [Tableau](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592) for analysis. 
+The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861 rows and connected to [Tableau](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592) for analysis. (Feel free to click the link to get redirected to my Tableau Dashboard)
 
 ## The Analysis
 
@@ -28,7 +28,7 @@ The first KPI that we looked at was the lowest graduation rates for the differen
 
 <img src="images/Massachussets Grad Rate.png"/>
 
-The next KPI was looking at how class sizes affects college attendance. It is believed that smaller class size would increase the % of students that go to college. To confirm, we analyzed the data by creating a scatter plot to show the relationship between class size and student attendance. We see that a 12-20 student class size range provides the highest concentration of students attending college and there does not appear to be significant attendance if class sizes were outside of this range. 
+The next KPI was looking at how class sizes affects college attendance. We analyzed the data by creating a scatter plot to show the relationship between class size and student attendance. We see that a 12-20 student class size range provides the highest concentration of students attending college and there does not appear to be significant attendance if class sizes were outside of this range. 
 
 Within the same scatter plot, we looked at college attendace for students that are economically disadvantaged. We see that those that are less econmically diadvantaged have a higher rate of attending college.  
 
