@@ -5,10 +5,9 @@
 ### General Analytics Projects
 
 ---
-
-#### [Internal Blog Post Project](/sample_project)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-This project
+#### [Massachusets Education System May Be Doomed](/Massachusetts_School_Analysis.md)
+[<img src="images/MASSeduPic1.jpg?raw=true"/>](/Massachusetts_School_Analysis.md)
+Check out this article about my analysis of the Maassachusetts education system using Tableau. We will dive into different KPI's that affect college attendance to better understand the areas where the school system may need to improve to increase college attendance.
 
 ---
 #### [DoorDash Marketing Analytics](https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/)
