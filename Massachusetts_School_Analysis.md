@@ -36,10 +36,10 @@ Within the same scatter plot, we looked at college attendace for students that a
 
 The last KPI we looked at was the students 4th grade math scores. The superintendent believes that 4th grade math is key to a students future success and would like to improve the states 4th grade math scores. We created a bar graph, to show the average % of 4th grade math scores with a passing threshold of 50% or higher. We see that there are only 4 districts that meet or exceed that threshold. These schools are:
 
-  -Community Day Charter Public School-R. Kingman Webster
-  -Community Day Charter Public School-Prospect 
-  -Community Day Charter Public School-Gateway 
-  -Orleans
+  - Community Day Charter Public School-R. Kingman Webster
+  - Community Day Charter Public School-Prospect 
+  - Community Day Charter Public School-Gateway 
+  - Orleans
 
 <img src="images/Massachussets Math Passing.png"/>
 
