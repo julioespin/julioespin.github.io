@@ -1,7 +1,7 @@
 
 # Massachusets Education System May Be Doomed
 
-----image of school, books, classrooms, campus--------
+<img src="images/Massachusetts_Cover.png"/>
 
 ## Let's Get Started!
 
