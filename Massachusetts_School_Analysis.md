@@ -5,7 +5,7 @@
 
 ## Let's Get Started!
 
-Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family. My parents did not have the opportunity to continue with their studes, but encouraged us to do so. 
+Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family. My parents did not have the opportunity to continue with their studies, but encouraged us to do so. 
 
 This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachussetts based on key performance indicators (KPI) that was requested the superintendent.
 
@@ -51,4 +51,4 @@ We looked at different KPI's for Massachussetts schools and see how they affect 
 
 It is recommended that further analysis should be made to determine the reason or other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools. Class sizes should remain within the range oof 12-20 students as there is no major improvement for college attendance if outside of that range. It is also reccommended that the teachers in districts with passing math scores be invited to train the rest of the state to improve math scores. 
 
-***I appreciate you making it to the end of the article. If you'd like to see more data analytics content, connect with me, Julio Espinoza, on LinkedIn so that you don't miss them. Thank you and have a great day!***
+***I appreciate you making it to the end of the article. Feel free to connect with me on LinkedIn.***
