@@ -32,7 +32,7 @@ I first looked at the lowest graduation rates to determine which schools in Mass
 
 <img src="images/Massachussets Grad Rate.png"/>
 
-The next KPI was looking at class size and its affect on college attendance. The data was analyzed by creating a scatter plot to show the relationship between class size and student attendance. We see that a 12-20 student class size range provides the highest concentration of students attending college and there does not appear to be significant attendance if class sizes were outside of this range. 
+The next KPI was class size and its affect on college attendance. The data was analyzed by creating a scatter plot to show the relationship between class size and student attendance. We see that a 12-20 student class size range provides the highest concentration of students attending college and there does not appear to be significant attendance if class sizes were outside of this range. 
 
 Within the same scatter plot, college attendace for students that are economically disadvantaged was observed. We see that those that are less econmically diadvantaged have a higher rate of attending college.  
 
@@ -55,7 +55,7 @@ Different KPI's for Massachusetts schools were observed to see how they affect c
 
 [<img src="images/Massachussetss Dashboard.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview)
 
-It is recommended that further analysis should be made to determine other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools. Class sizes should remain within the range of 12-20 students as there is no major improvement for college attendance if outside of that range. It is also recommended that the teachers in districts with passing math scores be invited to train the rest of the schools to improve math scores.
+It is recommended thata class sizes should remain within the range of 12-20 students as there is no major improvement for college attendance if outside of that range. It is also recommended that the teachers in districts with passing math scores be invited to train the rest of the schools to improve math scores. Further analysis should be made to determine other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools.
 
 ---
 
