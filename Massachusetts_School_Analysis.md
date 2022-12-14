@@ -46,11 +46,12 @@ The last KPI we looked at was the students 4th grade math scores. The superinten
 
 ## Results and Recommendation
 
-<img src="images/Massachussetss Dashboard.png"/>
+We looked at different KPI's for Massachussetts schools and see how they affect college attendance after high school. We see that there is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachussetts. We first looked at the graduation rates and found that graduation rates range from 0-18.2%. Next we analyzed class size to find that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
+
+<img src="images/Massachussetss Dashboard.png"/> (https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview)
+
 
 ------link to tableau by itself or embedded in picture-------
-
-We looked at different KPI's for Massachussetts schools and see how they affect college attendance after high school. We see that there is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachussetts. We first looked at the graduation rates and found that graduation rates range from 0-18.2%. Next we analyzed class size to find that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
 
 -----link to tableau-------
 
