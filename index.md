@@ -5,7 +5,7 @@
 ### General Analytics Projects
 
 ---
-#### [Massachusets Education System May Be Doomed](/Massachusetts_School_Analysis.md)
+#### [Massachusetts Education System May Be Doomed](/Massachusetts_School_Analysis.md)
 [<img src="images/Massachusetts_Cover.png"/>](/Massachusetts_School_Analysis.md)
 Check out this article about my analysis of the Maassachusetts education system using Tableau. We dive into different KPI's that affect college attendance to better understand the areas where the school system may need to improve to increase college attendance.
 
