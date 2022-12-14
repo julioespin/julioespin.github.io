@@ -5,9 +5,9 @@
 
 ## Let's Get Started!
 
-Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family. My parents did not have the opportunity to continue with their studies, but encouraged us to do so. 
+Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family.
 
-This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachusetts based on key performance indicators (KPI) that was requested the superintendent.
+This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachusetts based on key performance indicators (KPI) that was requested by the superintendent.
 
 ### Key Insights
 
@@ -36,9 +36,9 @@ Within the same scatter plot, we looked at college attendace for students that a
 
 The last KPI we looked at was the students 4th grade math scores. The superintendent believes that 4th grade math is key to a students future success and would like to improve the states 4th grade math scores. We created a bar graph, to show the average % of 4th grade math scores with a passing threshold of 50% or higher. We see that there are only 4 districts that meet or exceed that threshold. These schools are:
 
-  -Community Day Charter Public School- R. Kingman Webster
-  -Community Day Charter Public School - Prospect 
-  -Community Day Charter Public School -Gateway 
+  -Community Day Charter Public School-R. Kingman Webster
+  -Community Day Charter Public School-Prospect 
+  -Community Day Charter Public School-Gateway 
   -Orleans
 
 <img src="images/Massachussets Math Passing.png"/>
