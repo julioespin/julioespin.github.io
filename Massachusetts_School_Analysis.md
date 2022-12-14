@@ -7,20 +7,24 @@
 
 Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family.
 
-This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachusetts based on key performance indicators (KPI) that was requested by the superintendent.
+This got me interested in looking at an education case study. I was able to learn some key insights into the performance of schools in Massachusetts based on key performance indicators (KPI) that was requested by the superintendent.
 
 ### Key Insights
 
 After my analysis, I learned that: 
 
   - The bottom 10 schools with the lowest graduation rates range from 0-18.2%.
-  - Class sizes between 12-20 students have higher college attendance and plateaus
-  -Students that are economically disadvantaged have lower college attendance/Economically disadvantaged students are less likely to attend college
-  - 4 Schools are at or above the 50% passing threshold in mathematics(can later talk about how further research can be made to these schools to see how they have higher success rates.
+  - Class sizes between 12-20 students have higher college attendance.
+  - Students that are economically disadvantaged have lower college attendance rates.
+  - 4 Schools are at or above the 50% passing threshold in mathematics.
+  
+---
 
 ## The Data
 
 The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861 rows and connected to [Tableau](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview) for analysis. (Feel free to click the link to get redirected to my Tableau Dashboard)
+
+---
 
 ## The Analysis
 
