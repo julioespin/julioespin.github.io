@@ -11,7 +11,7 @@ Growing up, my parents knew the value of a proper education and always encourage
 
 This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachussetts based on key performance indicators (KPI) that was requested the superintendent.
 
-###Key Insights
+### Key Insights
 
 After my analysis, I learned that: 
 
