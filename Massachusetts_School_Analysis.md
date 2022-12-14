@@ -28,7 +28,7 @@ The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861
 
 ## The Analysis
 
-The first KPI that we looked at was the lowest graduation rates for the different schools in Massachusetts to determine which schools were struggling the most. Using the bar graph below, we see that the bottom 10 graudation rates range from 0-18.2%.
+We first looked at the lowest graduation rates to determine which schools in Massachusetts were struggling the most. Using the bar graph below, we see that the bottom 10 graudation rates range from 0-18.2%.
 
 <img src="images/Massachussets Grad Rate.png"/>
 
@@ -47,6 +47,8 @@ The last KPI we looked at was the students 4th grade math scores. The superinten
 
 <img src="images/Massachussets Math Passing.png"/>
 
+---
+
 ## Results and Recommendation
 
 We looked at different KPI's for Massachusetts schools and see how they affect college attendance after high school. We see that there is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachusetts. We first looked at the graduation rates and found that graduation rates range from 0-18.2%. Next we analyzed class size to find that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
@@ -54,5 +56,5 @@ We looked at different KPI's for Massachusetts schools and see how they affect c
 [<img src="images/Massachussetss Dashboard.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview)
 
 It is recommended that further analysis should be made to determine the reason or other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools. Class sizes should remain within the range oof 12-20 students as there is no major improvement for college attendance if outside of that range. It is also reccommended that the teachers in districts with passing math scores be invited to train the rest of the state to improve math scores. 
-
+---
 ***I appreciate you making it to the end of the article. Feel free to connect with me on LinkedIn.***
