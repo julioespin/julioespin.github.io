@@ -1,5 +1,5 @@
 
-# Massachussetts Education Analysis and Graduation Improvement
+# Massachussets Education System May Be Doomed
 
 ----image of school, books, classrooms, campus--------
 
@@ -61,24 +61,6 @@ We looked at different KPI's for Massachussetts schools and see how they affect 
 It is recommended that further analysis should be made to determine the reason or other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools. Class sizes should remain within the range oof 12-20 students as there is no major improvement for college attendance if outside of that range. It is also reccommended that the teachers in districts with passing math scores be invited to train the rest of the state to improve math scores. 
 
 ***I appreciate you making it to the end of the article. If you'd like to see more data analytics content, connect with me, Julio Espinoza, on LinkedIn so that you don't miss them. Thank you and have a great day! ***
-
-
-  
-
-
-------For this project, you will pretend that you were recently hired by the State of Massachusetts to analyze their education data. The school superintendent is looking for the following:
-
-A report to show the school board the state of the school system 
-
-###HOW Does class size affect college admission?/The superintendent is wondering how college attendance would be increased. They're considering investing in building more schools in aim of lowering the average class size to hopefully increase the % attending college. Would you recommend the state build more schools for this purpose? 
-
-###What are the top math schools in the state?/The superintendent believes that 4th grade math is key to a student's feature & would like to focus on improving the state's MCAS 4thGrade Math P value (P stands for passing). They want to know which districts are above the desired threshold of 50% & would like to collect the names of these districts to invite some of these teachers to train the rest of the state on how they improve math scores. 
-
-###What schools are struggling he most?/ The super intendant wants to know what are the bottom 10 high schools in terms of graduation %
-
-
-
-
 
 
 
