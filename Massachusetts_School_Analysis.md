@@ -43,34 +43,12 @@ The last KPI we looked at was the students 4th grade math scores. The superinten
 
 <img src="images/Massachussets Math Passing.png"/>
 
-
 ## Results and Recommendation
 
 We looked at different KPI's for Massachussetts schools and see how they affect college attendance after high school. We see that there is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachussetts. We first looked at the graduation rates and found that graduation rates range from 0-18.2%. Next we analyzed class size to find that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
 
 [<img src="images/Massachussetss Dashboard.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview)
 
-
-------link to tableau by itself or embedded in picture-------
-
------link to tableau-------
-
 It is recommended that further analysis should be made to determine the reason or other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools. Class sizes should remain within the range oof 12-20 students as there is no major improvement for college attendance if outside of that range. It is also reccommended that the teachers in districts with passing math scores be invited to train the rest of the state to improve math scores. 
 
-***I appreciate you making it to the end of the article. If you'd like to see more data analytics content, connect with me, Julio Espinoza, on LinkedIn so that you don't miss them. Thank you and have a great day! ***
-
-
-
--LINKS--- Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
-
-### 1. You can have sections and text.
-
-Just like this. And you can even add internal coding blocks
-
-```python
-print('this is the python code I used to solve this problem')
-```
-
-### 2. You can add any images you'd like. 
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+***I appreciate you making it to the end of the article. If you'd like to see more data analytics content, connect with me, Julio Espinoza, on LinkedIn so that you don't miss them. Thank you and have a great day!***
