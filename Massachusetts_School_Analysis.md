@@ -1,5 +1,5 @@
 
-# Massachusets Education System May Be Doomed
+# Massachusetts Education System May Be Doomed
 
 <img src="images/Massachusetts_Cover.png"/>
 
