@@ -20,7 +20,7 @@ After my analysis, I learned that:
 
 ## The Data
 
-The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861 rows and connected to [Tableau](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592) for analysis. (Feel free to click the link to get redirected to my Tableau Dashboard)
+The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861 rows and connected to [Tableau](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview) for analysis. (Feel free to click the link to get redirected to my Tableau Dashboard)
 
 ## The Analysis
 
