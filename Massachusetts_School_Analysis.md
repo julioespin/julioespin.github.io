@@ -1,5 +1,5 @@
 
-# Massachussets Education System May Be Doomed
+# Massachusets Education System May Be Doomed
 
 ----image of school, books, classrooms, campus--------
 
@@ -7,7 +7,7 @@
 
 Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family. My parents did not have the opportunity to continue with their studies, but encouraged us to do so. 
 
-This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachussetts based on key performance indicators (KPI) that was requested the superintendent.
+This got me interested in looking at an education case study and I was able to learn some key insights into the performance of schools in Massachusetts based on key performance indicators (KPI) that was requested the superintendent.
 
 ### Key Insights
 
@@ -45,7 +45,7 @@ The last KPI we looked at was the students 4th grade math scores. The superinten
 
 ## Results and Recommendation
 
-We looked at different KPI's for Massachussetts schools and see how they affect college attendance after high school. We see that there is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachussetts. We first looked at the graduation rates and found that graduation rates range from 0-18.2%. Next we analyzed class size to find that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
+We looked at different KPI's for Massachusetts schools and see how they affect college attendance after high school. We see that there is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachusetts. We first looked at the graduation rates and found that graduation rates range from 0-18.2%. Next we analyzed class size to find that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
 
 [<img src="images/Massachussetss Dashboard.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview)
 
