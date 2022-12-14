@@ -3,8 +3,6 @@
 
 ----image of school, books, classrooms, campus--------
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
 ## Let's Get Started!
 
 Growing up, my parents knew the value of a proper education and always encouraged us to pursue higher education. My parents have different educational backgrounds: my mother was the first in the family to go to college, while my father never made it past the 6th grade. It was very common that a child in a small town of a latin american country to start working at a young age to help support their family. My parents did not have the opportunity to continue with their studes, but encouraged us to do so. 
@@ -20,8 +18,6 @@ After my analysis, I learned that:
   -Students that are economically disadvantaged have lower college attendance/Economically disadvantaged students are less likely to attend college
   - 4 Schools are at or above the 50% passing threshold in mathematics(can later talk about how further research can be made to these schools to see how they have higher success rates.
 
------------Dashboard picture------
-
 ## The Data
 
 The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861 rows and connected to Tableau for analysis. 
@@ -30,13 +26,13 @@ The dataset was provided as an Excel (MA_Schools.xlsx) file and consists of 1861
 
 The first KPI that we looked at was the lowest graduation rates for the different schools in Massachusetts to determine which schools were struggling the most. Using the bar graph below, we see that the bottom 10 graudation rates range from 0-18.2%.
 
-------------First image of graduation rates----------------
+<img src="images/Massachussets Grad %.png"/>
 
 The next KPI was looking at how class sizes affects college attendance. It is believed that smaller class size would increase the % of students that go to college. To confirm, we analyzed the data by creating a scatter plot to show the relationship between class size and student attendance. We see that a 12-20 student class size range provides the highest concentration of students attending college and there does not appear to be significant attendance if class sizes were outside of this range. 
 
 Within the same scatter plot, we looked at college attendace for students that are economically disadvantaged. We see that those that are less econmically diadvantaged have a higher rate of attending college.  
 
-____________image of class attendance -----------------
+<img src="images/Massachussetts Class Size.png"/>
 
 The last KPI we looked at was the students 4th grade math scores. The superintendent believes that 4th grade math is key to a students future success and would like to improve the states 4th grade math scores. We created a bar graph, to show the average % of 4th grade math scores with a passing threshold of 50% or higher. We see that there are only 4 districts that meet or exceed that threshold. These schools are:
 
@@ -45,12 +41,12 @@ The last KPI we looked at was the students 4th grade math scores. The superinten
   -Community Day Charter Public School -Gateway 
   -Orleans
 
-------Image of 4th grrade math--------
+<img src="images/Massachussets Math Passing.png"/>
 
 
 ## Results and Recommendation
 
-------dashboard pic---------
+<img src="images/Massachussetss Dashboard.png"/>
 
 ------link to tableau by itself or embedded in picture-------
 
