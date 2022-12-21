@@ -6,53 +6,63 @@
 
 Money, money, money makes the world go round. 
 
-In this project I analyze the [International Develpment Association's](https://ida.worldbank.org/en/what-is-ida)(IDA) loans data to provide some insight. The IDA is part of the World Bank and provides low interest loans to poor countries to help reduce poverty.
+In this project I analyze the [International Develpment Association's](https://ida.worldbank.org/en/what-is-ida) (IDA) loans data to provide some insight. The IDA is part of the World Bank and provides low interest loans to poor countries to help reduce poverty.
 
+The stakeholder was interested in specific information from the dataset. The following are the questions of interest that will be answered in my analysis: 
 
+  - Show us all transactions from the Nicaragua (the country).
+  - How many total transactions? 
+  - How many total transactions per country?? 
+  - What is the max owed to the IDA?
+  - Which was the most recent to pay?
+  - Which country has the most loans? 
 
-
-### Key Insights
-
-The stakeholder was interested in specific information from the dataset. Below is a summary of my analysis: 
-
-Show us all transactions from the Nicaragua (the country)?
-How many total transactions? 
-How many total transactions per country?? 
-What is the max owed to the IDA?
-Which was the most recent to pay?
-Who has the most loans? 
-
-
-  - There was a total of 1109994
-  
 ---
 
 ## The Data
 
-The dataset was provided as a [CSV](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx) file, consists of 1,109,994 rows and SQL was used for analysis.
+The dataset was provided as a [CSV](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx) file that consists of 1,109,994 rows, and SQL was used for analysis.
 
 ---
 
 ## The Analysis
 
-I first looked at the lowest graduation rates to determine which schools in Massachusetts were struggling the most. We see below that the bottom 10 graudation rates range from 0-18.2%.
+### Show us all transactions from the Nicaragua (the country)
 
---------Image
+The first question I looked into was finding all transactions from Nicaragua. Using the SQL statement below, I was able to pull all transactions that were from Nicaragua. 
 
-The next KPI was class size and its affect on college attendance. The data was analyzed by creating a scatter plot to show the relationship between class size and student attendance. We see that a 12-20 student class size range provides the highest concentration of students attending college and there does not appear to be significant attendance if class sizes were outside of this range. 
+<img src="images/SQL_Banking_Nicaragua.png"/>
+<img src="images/SQL_Banking Nicaragua_results.png"/>
 
-Within the same scatter plot, college attendace for students that are economically disadvantaged was observed. We see that those that are less econmically diadvantaged have a higher rate of attending college.  
+We also see that there was a total of 13,704 rows of data that are transactions from Nicaragua.
 
--------Image
+### How many total transactions? 
 
-The last KPI that was was observed was the students 4th grade math scores. The superintendent believes that 4th grade math is key to a students future success and would like to improve the states 4th grade math scores. I created a bar graph to show the average % of 4th grade math scores with a passing threshold of 50% or higher. We see that there are only 4 districts that meet or exceed that threshold. These schools are:
+The next item we looked at was the total transactions to date under the IDA. 
 
-  - Community Day Charter Public School-R. Kingman Webster
-  - Community Day Charter Public School-Prospect 
-  - Community Day Charter Public School-Gateway 
-  - Orleans
+-------Image of SQL Statement
+-------Image of results
 
--------Image
+### How many total transactions per country?? 
+
+-------Image of SQL Statement
+-------Image of results
+
+### What is the max owed to the IDA?
+
+-------Image of SQL Statement
+-------Image of results
+
+### Which was the most recent to pay?
+
+-------Image of SQL Statement
+-------Image of results
+
+### Which country has the most loans? 
+
+-------Image of SQL Statement
+-------Image of results
+
 
 ---
 
