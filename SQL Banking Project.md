@@ -6,7 +6,7 @@
 
 Money, money, money makes the world go round. 
 
-In this project I analyze the [International Develpment Association's](https://ida.worldbank.org/en/what-is-ida) (IDA) loans data to provide some insight. The IDA is part of the World Bank and provides low interest loans to poor countries to help reduce poverty.
+In this project I analyze the [International Development Association's](https://ida.worldbank.org/en/what-is-ida) (IDA) loans data to provide some insight. The IDA is part of the World Bank and provides low interest loans to poor countries to help reduce poverty.
 
 The stakeholder was interested in specific information from the dataset. The following are the questions of interest that will be answered in my analysis: 
 
@@ -40,18 +40,28 @@ We also see that there was a total of 13,704 rows of data that are transactions 
 
 The next item we looked at was the total transactions to date under the IDA. 
 
--------Image of SQL Statement
--------Image of results
+<img src="images/SQL_Banking_Total_Transactitons.png"/>
+<img src="images/SQL_Banking_Total_Transactitons_Results.png"/>
+
+The results of the SQL statement show that there are a total of 1,109,994 transactions.
 
 ### How many total transactions per country?? 
 
--------Image of SQL Statement
--------Image of results
+<img src="images/SQL_transactions_country.png"/>
+<img src="images/SQL_transactions_country_results.png"/>
+
 
 ### What is the max owed to the IDA?
 
--------Image of SQL Statement
--------Image of results
+The total owed to IDA is
+
+<img src="images/SQL_banking_total_owed.png"/>
+<img src="images/SQL_banking_total_owed_results.png"/>
+
+The country that owes the most is India with 793,256,127.64.
+
+<img src="images/SQL_banking_highest_owed_country.png"/>
+<img src="images/SQL_banking_highest_owed_country_results.png"/>
 
 ### Which was the most recent to pay?
 
