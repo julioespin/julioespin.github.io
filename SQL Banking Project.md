@@ -1,6 +1,6 @@
 # How Much Money Does the World Owe?
 
-<img src="images/Massachusetts_Cover.png"/>
+<img src="images/SQL_Banking_Cover.png"/>
 
 ## Let's Get Started!
 
@@ -83,7 +83,6 @@ The results show that India had the most amount of loans at 58,339.
 ## Results
 
 There was several types of information that the stakeholder was interested in learning from the data. Throughout my analysis, I found that Nicaragua has a total of 13,704 transactions, there is a total of 1,109,994 transactions from all countries, each country varied in the amount loanded to them, the total owed back to the IDA is $20,164,338,829,274.426 and India borrowed the most loans and also holds the highest current total $3,347,798,404,996.19 that is due to the IDA.
-
 
 ---
 
