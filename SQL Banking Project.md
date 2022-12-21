@@ -70,8 +70,10 @@ The country that owes the most is India with 793,256,127.64.
 
 ### Which country has the most loans? 
 
--------Image of SQL Statement
--------Image of results
+The country that has the current most loans 
+
+<img src="images/SQL_banking_most_loans.png"/>
+<img src="images/SQL_banking_most_loans_results.png"/>
 
 
 ---
@@ -80,7 +82,7 @@ The country that owes the most is India with 793,256,127.64.
 
 Different KPI's for Massachusetts schools were observed to see how they affect college attendance. There is a total of 1,861 schools and a total of 953,748 students throughout the state of Massachusetts. Graduation rates were observed and found that the lowest 10 schools had graduation rates of 0-18.2%. Next we found that class sizes between 12-20 students have the highest concentration of students attending college and those that are more economically disadvantaged are less likely to attend college. Finally, we found 4 districts that meet or exceed the passing threshold for 4th grade math. 
 
-[<img src="images/Massachussetss Dashboard.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/MassachusettsSchoolProject_16704556294450/MassachusettsEducationOverview)
+
 
 It is recommended thata class sizes should remain within the range of 12-20 students as there is no major improvement for college attendance if outside of that range. It is also recommended that the teachers in districts with passing math scores be invited to train the rest of the schools to improve math scores. Further analysis should be made to determine other contributing factors for low graduation rates. After further analysis, a decision can be made to improve graduation rates for the schools.
 
