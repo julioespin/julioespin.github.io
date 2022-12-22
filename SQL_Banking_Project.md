@@ -53,14 +53,13 @@ I found that there was 137 countries that have had transactions with IDA as show
 
 ### What is the max owed to the IDA?
 
-The next area of interest was finding the total amount that is owed to the IDA
+The next area of interest was finding the total amount that is owed to the IDA. Using the SQL statement below, we find that the total owed is $20,164,338,829,274.43.
 
 <img src="images/SQL_banking_total_owed.png"/>
 <img src="images/SQL_banking_total_owed_results.png"/>
 
-We find that the total owed is $20,164,338,829,274.43.
 
-I also looked into which country owed the most and found that India owed the most for a total of $3,347,798,404,996.19
+I also looked into which country owed the most. The results show that India owed the most for a total of $3,347,798,404,996.19
 
 <img src="images/SQL_banking_highest_owed_country.png"/>
 <img src="images/SQL_banking_highest_owed_country_results.png"/>
