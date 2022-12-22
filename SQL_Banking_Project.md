@@ -49,7 +49,7 @@ The stakeholder was then interested in narrowing down the data and finding the t
 <img src="images/SQL_transactions_country.png"/>
 <img src="images/SQL_transactions_country_results.png"/>
 
-I found that there was 137 countries that have had transactions with each country having varying amounts of transactions with the IDA.
+I found that there were 137 countries that have had transactions with the IDA.
 
 ### What is the max owed to the IDA?
 
