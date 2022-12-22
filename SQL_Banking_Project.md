@@ -66,7 +66,7 @@ I also looked into which country owed the most. The results show that India owed
 
 ### Which country was the most recent to pay?
 
-The next question was to determnine which country most recently made a payment. Unfortunately, that data is not included in the dataset. At that point, I would reach out to the stakeholder to determine if there are other data sources that contain that information. If there are other tables, I would simply use a JOIN clause to join both tables together and find the corresponding information. 
+The next question was to determnine which country most recently made a payment. Unfortunately, the data does not include that information. At that point, I would reach out to the stakeholder to determine if there are other data sources that contain that information. If there are other tables, I would simply use a JOIN clause to join both tables together and find the corresponding information. 
 
 ### Which country has the most loans? 
 
