@@ -1,8 +1,8 @@
 # My Data Analytics Portfolio
 
 ---
-#### [How Much Money Does the World Owe?](/SQL Banking Project.md)
-[<img src="images/SQL_Banking_Cover.png"/>](/SQL Banking Project.md)
+#### [How Much Money Does the World Owe?](/SQL_Banking_Project.md)
+[<img src="images/SQL_Banking_Cover.png"/>](/SQL_Banking_Project.md)
 In this project I take a look at the International Development Association (IDA), part of the World Bank, dataset using SQL to analyze different KPIs requested by the stakeholder. Check it out and let me know what you think!
 
 ---
