@@ -14,9 +14,6 @@ After my analysis, I found that:
   - The majority of patients stay less than 7 days
   - 
 
-✅ CASE WHEN
-
-Your boss has asked you to explore the relationship between number of lab procedures and time spent in the hospital. Specifically, they asked for a few, average, and many procedure group.
 
  ✅ Subqueries + WITH (CTE's)  
 
@@ -39,6 +36,10 @@ Give the hospital director a list of the medical specialties that have an averag
 ✅ JOIN
 
 The nurse director needs to know if we are subconsciously treating races differently. Show the average number of lab procedures broken down by race. 
+
+✅ CASE WHEN
+
+Your boss has asked you to explore the relationship between number of lab procedures and time spent in the hospital. Specifically, they asked for a few, average, and many procedure group.
 
   
 ---
@@ -80,7 +81,31 @@ To do this I first used the *JOIN* command to combine two tables that have a com
 
 The results show that the average number of procedures range from 41.82 - 44.46. There does not appear to be a gap between the number of procedures between each race. 
 
-The Chief of Nursing wants to know if the hospital seems to be treating patients of different races differently, specifically with the number of lab procedures done.
+### Explore the relationship between number of lab procedures and time spent in the hospital. Specifically, they asked for a few, average, and many procedure group.
+
+I first designated a range of values that would be assigned to a patient based on the number of procedures that they had. Lab procedures ranging from:
+
+ - 0-24 as Few
+ - 25-54 as Average
+ - 55+ as Many
+ 
+I used the SQL statement below to provide the results.
+
+-----image SQL
+-----imaage results
+
+We notice that each patient is assigned as having few, average, or many procedures.
+
+
+The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I used the following SQL statement to get the results.
+
+----image of SQL
+----image of results
+
+The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. We can see that patients who had longer average stays had more procedures. 
+
+
+###
 
 
 
