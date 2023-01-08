@@ -15,14 +15,6 @@ After my analysis, I found that:
   - 
 
 
- ✅ Subqueries + WITH (CTE's)  
-
-Provide a list of all patients who had an emergency but left the hospital faster than the average.
-
-✅ UNION
-
-Research needs a list of all patient numbers who are African-America or have a "Up" to metformin
-
 ✅ HISTOGRAMS
 
 Our health care data analyst boss wants to know what the distribution of time spent in the hospital looks like. 
@@ -41,11 +33,19 @@ The nurse director needs to know if we are subconsciously treating races differe
 
 Your boss has asked you to explore the relationship between number of lab procedures and time spent in the hospital. Specifically, they asked for a few, average, and many procedure group.
 
-  
+ ✅ UNION
+
+Research needs a list of all patient numbers who are African-America or have a "Up" to metformin
+
+ ✅ Subqueries + WITH (CTE's)  
+
+Provide a list of all patients who had an emergency but left the hospital faster than the average.
+
+
 ---
 
 ## The Data
-
+ I used MySQL to analyze the data. 
 
 
 ---
@@ -105,8 +105,14 @@ The question that was initially asked was to find the relationship between the n
 The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. We can see that patients who had longer average stays had more procedures. 
 
 
-###
+### Research needs a list of all patient numbers who are African-America or have a "Up" to metformin
 
+As MySQL does not support *FULL JOIN* , I used UNION operator to get the data and it will stack the results on top of each other. My first SQL statement will provide me with the patient numbers who are African American and the second part of query provides the patient number for patients who have increased their metformin dose.
+
+----image of SQL
+----image of SQL
+
+The list of patients is what was required to search and can then be sent back to research. 
 
 
 
