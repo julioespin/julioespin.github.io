@@ -5,15 +5,15 @@
 
 ## Let's Get Started!
 
-As someone who has experience working in the healthcare field, I thought that it would be interesting to analyze some healthcare data. In this project, I used SQL to analyze healthcare data and focused on getting insights into the following questions:
+As someone who has experience in the healthcare field, I thought that it would be interesting to analyze some healthcare data. In this project, I used SQL to analyze healthcare data and focused on getting insights into the following questions:
 
-  - Do the majority of patients stay for less than 7 days at the hospital?
-  - Which medical specialties are doing the most number of procedures on average? 
+  - Do the majority of patients stay in the hospital for less than 7 days?
+  - Which medical specialties are doing the most average number of procedures? 
   - Is the hospital treating patients of different races differently? Specifically with the number of lab procedures done?
-  - Is there any correlation between the number of days stayed in the hospital to the number of lab procedures orders?
-  - List of all patient numbers who are African-America or have a "Up" to metformin.
+  - Is there any correlation between the number of days stayed in the hospital and the number of lab procedures?
+  - Provide a list of all patient numbers who are African-America or have a "Up" to metformin.
   - Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
-  - Providing a summary of the top 50 medication patients.
+  - Provide a summary of the top 50 medication patients.
 
 ---
 
@@ -27,14 +27,14 @@ I used MySQL to analyze healthcare data that ranged between 1998-2008. The dates
  
 ### Do the majority of patient stay for less than 7 days?
 
-The first information that I analyzed was determining whether the majority of patients stay less than 7 days. This is an important factor to help with forecasting for the availability for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
+The first qustion to answer was to determine whether the majority of patients stay less than 7 days. This is an important factor to help with forecasting for the availability for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
 
 <img src="images/Healthcare_Analysis_patient_stay.png"/>
 <img src="images/Healthcare_Analysis_patient_stay_results.png"/>
 
-I found that the majority of patients stay at the hospital for less than 7 days, with the most of patients staying for 3 days. 
+I found that the majority of patients stayed at the hospital for less than 7 days, with the most of patients staying for 3 days. 
 
-Having sufficient space available is critical in determining whether a hospital can admit new patients. Determining the average length of a patient's stay can help with forcasting for the capability of new admissions.
+Having sufficient space available is critical in determining whether a hospital can admit new patients. Determining the average length of a patient's stay can help with forecasting for the capability of new admissions.
 
 
 ### What medical specialties are doing the most number of average procedures?
@@ -47,14 +47,14 @@ The next item that I looked at was determining which medical specialties have th
 The results provide a short list of 5 medical specialties that are most commonly used and have an average number of procedures greater than 2.5.
 
 
-### The nurse director needs to know if we are subconsciously treating races differently. Show the average number of lab procedures broken down by race.
+### Is the hospital treating patients of different races differently? Specifically with the number of lab procedures done?
 
-To do this I used a *JOIN* to combine two tables that share a common column and contain the information that I am looking for. One of the tables contains patient health and treatment information, while the other table contains demographic data. These two tables are related via patient_nbr column that is a unique patient ID number given to every patient.
+To answer this question, I used a *JOIN* to combine two tables that share a common column and contain the information that I am looking for. One of the tables contains patient health and treatment information, while the other table contains demographic data. These two tables are related via patient_nbr column that is a unique patient ID number given to every patient.
 
 <img src="images/Healthcare_Analysis_demographics.png"/>
 <img src="images/Healthcare_Analysis_demographics_results.png"/>
 
-The results show that the average number of procedures range from 41.82 - 44.46, there is an unknown race, and there does not appear to be a gap between the number of procedures between each race. 
+The results show that the average number of procedures range from 41.82 - 44.46, there is an unknown race (most likely not documented/recorded), and there does not appear to be a gap between the number of procedures between each race as the average number of procedures are similar. 
 
 
 ### Is there any correlation between the number of days stayed in the hospital to the number of lab procedures ordered? 
