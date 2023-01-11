@@ -116,7 +116,9 @@ Lastly, I created a summary of the top 50 patients who who were using the most m
 
 ## Results and Recommendation
 
-Using SQL, I was able to find interesting insights to the healthcare data. I found that the average patient stay is less than 7 days with most patients staying an average of 3 days; there are 5 medical specialties that are doing most number of the procedures on average; there does not appear to be a difference in the way that different races are treated; and there appears to be a relationship between the average length of a patient's stay and the number of procedures that they receive. In addition, I was able to create a list of patients who are African-American or have a "Up" to metformin; a list of patients who had an emergency but stayed less than the average time in the hospital; and a summary of the top 50 medication patients.
+Using SQL, I was able to find interesting insights to the healthcare data. I found that the average patient stay is less than 7 days with most patients staying an average of 3 days; there are 5 medical specialties that are doing most number of the procedures on average; there does not appear to be a difference in the way that different races are treated; and there appears to be a relationship between the average length of a patient's stay and the number of procedures that they receive. 
+
+In addition, I was able to create a list of patients who are African-American or have a "Up" to metformin; a list of patients who had an emergency but stayed less than the average time in the hospital; and a summary of the top 50 medication patients.
 
 ---
 
