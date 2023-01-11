@@ -1,6 +1,11 @@
 # My Data Analytics Portfolio
 
 ---
+#### [Healthcare Data Analysis](/Healthcare_Analysis.md)
+[<img src="images/HealthCare_Analysis_Cover.png"/>](/Healthcare_Analysis.md)
+In this project I used MySQL to analyze and gain insights to healthcare data. Feel free to take a look and let me know what you think!
+
+---
 #### [How Much Money Does the World Owe?](/SQL_Banking_Project.md)
 [<img src="images/SQL_Banking_Cover.png"/>](/SQL_Banking_Project.md)
 In this project I take a look at the International Development Association (IDA), part of the World Bank, dataset using SQL to analyze different KPIs requested by the stakeholder. Check it out and let me know what you think!
