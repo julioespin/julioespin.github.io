@@ -36,6 +36,7 @@ I found that the majority of patients stay at the hospital for less than 7 days,
 
 Having sufficient space available is critical in determining whether a hospital can admit new patients. Determining the average length of a patient's stay can help with forcasting for the capability of new admissions.
 
+
 ### What medical specialties are doing the most number of average procedures?
 
 The next item that I looked at was determining which medical specialties have the highest average number of procedures. Using the SQL statement below, I was able to find that informmation.
@@ -44,6 +45,7 @@ The next item that I looked at was determining which medical specialties have th
 <img src="images/Healthcare_Analysis_medical_specialties_results.png"/>
 
 The results provide a short list of 5 medical specialties that are most commonly used and have an average number of procedures greater than 2.5.
+
 
 ### The nurse director needs to know if we are subconsciously treating races differently. Show the average number of lab procedures broken down by race.
 
@@ -54,9 +56,10 @@ To do this I used a *JOIN* to combine two tables that share a common column and 
 
 The results show that the average number of procedures range from 41.82 - 44.46, there is an unknown race, and there does not appear to be a gap between the number of procedures between each race. 
 
+
 ### Is there any correlation between the number of days stayed in the hospital to the number of lab procedures ordered? 
 
-I first designated a range of values that would be assigned to a patient based on the number of procedures that they had. Lab procedures ranging from:
+To answer the next question, I first designated a range of values that would be assigned to a patient based on the number of procedures that they had. Lab procedures ranged from:
 
  - 0-24 as Few
  - 25-54 as Average
@@ -64,18 +67,17 @@ I first designated a range of values that would be assigned to a patient based o
  
 I used the SQL statement below to provide the results.
 
------image SQL
------imaage results
+<img src="images/Healthcare_Analysis_procedures.png"/>
+<img src="images/Healthcare_Analysis_procedures_results.png"/>
 
 We notice that each patient is assigned as having few, average, or many procedures.
 
+The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I used the following SQL statement to get the that data.
 
-The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I used the following SQL statement to get the results.
+<img src="iimages/Healthcare_Analyisis_procedure_avgtime.png"/>
+<img src="images/Healthcare_Analyisis_procedure_avgtime_results.png"/>
 
-----image of SQL
-----image of results
-
-The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. We can see that patients who had longer average stays had more procedures. 
+The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. The results show that patients who had longer average stays had more procedures. 
 
 
 ### List of all patient numbers who are African-America or have a "Up" to metformin.
