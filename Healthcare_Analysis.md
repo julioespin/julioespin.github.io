@@ -59,7 +59,7 @@ The results show that the average number of procedures range from 41.82 - 44.46,
 
 ### Is there any correlation between the number of days stayed in the hospital to the number of lab procedures ordered? 
 
-To answer the next question, I first designated a range of values that would be assigned to a patient based on the number of procedures that they had. Lab procedures ranged from:
+To answer the next question, I first assgined a category patients based on the number of procedures that they had. Lab procedures ranged from:
 
  - 0-24 as Few
  - 25-54 as Average
@@ -72,7 +72,7 @@ I used the SQL statement below to provide the results.
 
 We notice that each patient is assigned as having few, average, or many procedures.
 
-The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I used the following SQL statement to get the that data.
+The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I modified the existing SQL statement to get the that data.
 
 <img src="images/Healthcare_Analyisis_procedure_avgtime.png"/>
 <img src="images/Healthcare_Analyisis_procedure_avgtime_results.png"/>
