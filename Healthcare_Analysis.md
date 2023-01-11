@@ -18,7 +18,7 @@ As someone who has experience working in the healthcare field, I thought that it
 ---
 
 ## The Data
-I used MySQL to analyze healthcare data that ranged between 1998-2008. The dateset can be found on [Kaggle] (https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
+I used MySQL to analyze healthcare data that ranged between 1998-2008. The dateset can be found on [Kaggle](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
 
 
 ---
