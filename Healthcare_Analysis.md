@@ -82,35 +82,34 @@ The SQL statement grouped each patients based on their procedure frequency (few,
 
 ### List of all patient numbers who are African-America or have a "Up" to metformin.
 
-The next item I analyzed required me to use information from two different tabels. Normally, I would use one of the *JOIN* operators to combine the tables with a common primary key and then find the corresponding data. In this case I would need to use *FULL JOIN*  since I am looking to pull patients who are African-American or have "Up" to metformin and FULL JOIN would allow me to combine tables even if there are NULL values in the seccond table. Unfortunately MySQL does not support *FULL JOIN* and I nstead decided to use the *UNION* operator. The UNION operator pulls all data results from the table and stacks the results on top of each other. 
+The next item I analyzed required me to use information from two different tabels. Normally, I would use one of the *JOIN* operators to combine the tables with a common column and then find the corresponding data. In this case I would need to use *FULL JOIN*  since I am looking to pull patients who are African-American or have "Up" to metformin. FULL JOIN would combine both tables and not exclude rows that have NULL values. Unfortunately MySQL does not support *FULL JOIN* and instead decided to use the *UNION* operator. The UNION operator pulls all data results from the table and stacks the results on top of each other. 
 
-In the statments below, the first SQL statement will provide me with the patient numbers who are African American and the second part of query provides the patient number for patients who have increased their metformin dose.
+<img src="images/Healthcare_Analysis_demographics_metformin.png"/>
+<img src="images/Healthcare_Analysis_demographics_metformin_results.png"/>
 
-----image of SQL
-----image of results
-
-The list of patients is what was required to search and can then be sent back to research. 
+The SQL statement above provided the patient numbers for those who are African American and patients who have "Up" for their metformin dose.
 
 ### Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
 
-The next ask was to provide a list of patients who had an emergengy with admission_type_id of 1 and stayed less than average time in the hospital. As aggregate functions can't be used directly in the WHERE clause, I used a subquery help pull the data. 
+The next ask was to provide a list of patients who had an emergengy with admission_type_id of 1 and stayed less than average time in the hospital. As aggregate functions can't be used directly in the WHERE clause, I used a subquery to pull the data. 
 
------image of SQL
------image of results
+<img src="images/Healthcare_Analysis_subquery.png"/>
+<img src="images/Healthcare_Analysis_subquery_results.png"/>
 
 The results of query provide a list of patients that had an emergnecy and stayed less than average time in th hospital.
 
 Similary, I could have used a CTE to pull the same results. 
 
------image of SQL
------image of results
+<img src="images/Healthcare_Analysis_cte.png"/>
+<img src="images/Healthcare_Analysis_cte_results.png"/>
+
 
 ###Provide a summary for the top 50 medication patients.
 
 Lastly, I created a summary of the top 50 patients who who were using the most medications. Patients were sorted based on highest number of medications they had. Patients who had the same amount of medications were then sorted by number of lab procedures.
 
------image of SQL
------image of results
+<img src="images/Healthcare_Analysis_summary.png"/>
+<img src="images/Healthcare_Analysis_summary_results.png"/>
 
 
 ---
@@ -118,6 +117,13 @@ Lastly, I created a summary of the top 50 patients who who were using the most m
 ## Results and Recommendation
 
 
+ - Do the majority of patients stay for less than 7 days at the hospital?
+  - Which medical specialties are doing the most number of procedures on average? 
+  - Is the hospital treating patients of different races differently? Specifically with the number of lab procedures done?
+  - Is there any correlation between the number of days stayed in the hospital to the number of lab procedures orders?
+  - List of all patient numbers who are African-America or have a "Up" to metformin.
+  - Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
+  - Providing a summary of the top 50 medication patients.
 
 ---
 
