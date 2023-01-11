@@ -72,7 +72,7 @@ I used the SQL statement below to provide the results.
 
 We notice that each patient is assigned as having few, average, or many procedures.
 
-The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I modified the existing SQL statement to get the that data.
+The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I modified the existing SQL statement to get that data.
 
 <img src="images/Healthcare_Analyisis_procedure_avgtime.png"/>
 <img src="images/Healthcare_Analyisis_procedure_avgtime_results.png"/>
@@ -80,9 +80,9 @@ The question that was initially asked was to find the relationship between the n
 The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. The results show that patients who had longer average stays had more procedures. 
 
 
-### List of all patient numbers who are African-America or have a "Up" to metformin.
+### List of all patient numbers who are African-American or have a "Up" to metformin.
 
-The next item I analyzed required me to use information from two different tabels. Normally, I would use one of the *JOIN* operators to combine the tables with a common column and then find the corresponding data. In this case I would need to use *FULL JOIN*  since I am looking to pull patients who are African-American or have "Up" to metformin. FULL JOIN would combine both tables and not exclude rows that have NULL values. Unfortunately MySQL does not support *FULL JOIN* and instead decided to use the *UNION* operator. The UNION operator pulls all data results from the table and stacks the results on top of each other. 
+The next item was to provide a list of patients that are African-American or have a "Up" to metformin. Similar to the previous questions, I needed information from two tables. Normally I would use *FULL JOIN* to pull information that satisfied my requirements of demographics and health data. *FULL JOIN* would combine both tables and not exclude rows that have NULL values. Unfortunately MySQL does not support *FULL JOIN* and instead decided to use the *UNION* operator. The *UNION* operator pulls all data results from the table and stacks the results on top of each other. 
 
 <img src="images/Healthcare_Analysis_demographics_metformin.png"/>
 <img src="images/Healthcare_Analysis_demographics_metformin_results.png"/>
