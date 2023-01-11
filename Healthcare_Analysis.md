@@ -74,7 +74,7 @@ We notice that each patient is assigned as having few, average, or many procedur
 
 The question that was initially asked was to find the relationship between the number of lab procedures and the time spent in the hospital. I used the following SQL statement to get the that data.
 
-<img src="iimages/Healthcare_Analyisis_procedure_avgtime.png"/>
+<img src="images/Healthcare_Analyisis_procedure_avgtime.png"/>
 <img src="images/Healthcare_Analyisis_procedure_avgtime_results.png"/>
 
 The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. The results show that patients who had longer average stays had more procedures. 
