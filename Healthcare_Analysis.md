@@ -119,4 +119,4 @@ Lastly, I created a summary of the top 50 patients who who were using the most m
 
 ---
 
-***I appreciate you making it to the end of the article. Feel free to connect with me on LinkedIn.***
+***I appreciate you making it to the end of the article. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/jbespinoza/).***
