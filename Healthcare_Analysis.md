@@ -27,7 +27,7 @@ I used MySQL to analyze healthcare data that ranged between 1998-2008. The dates
  
 ### Do the majority of patient stay for less than 7 days?
 
-The first data point I analyzed was determining whether the majority of patients stay less than 7 days. This is an important factor to help with forcasting for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
+The first information that I analyzed was determining whether the majority of patients stay less than 7 days. This is an important factor to help with forcasting for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
 
 <img src="images/Healthcare_Analysis_patient_stay.png"/>
 <img src="images/Healthcare_Analysis_patient_stay_results.png"/>
@@ -38,12 +38,12 @@ Having sufficient space available is critical in determining whether a hospital 
 
 ### What medical specialties are doing the most number of average procedures?
 
-The next thing I looked at determining what medical specialties are doing the most average number of procedures. Using the SQL statement below to find that informmation.
+The next item that I looked at was determining which medical specialties have the highest average number of procedures. Using the SQL statement below, I was able to find that informmation.
 
--------Image SQL
--------Image Results
+<img src="images/Healthcare_Analysis_medical_specialties.png"/>
+<img src="images/Healthcare_Analysis_medical_specialties_results.png"/>
 
-We see that the SQL statement was able to provide a short list of 5 medical specialties that have an average number of procedures greater than 2.5.
+The results provide a short list of 5 medical specialties that are most commonly used and have an average number of procedures greater than 2.5.
 
 ### The nurse director needs to know if we are subconsciously treating races differently. Show the average number of lab procedures broken down by race.
 
