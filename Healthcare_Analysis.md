@@ -27,7 +27,7 @@ I used MySQL to analyze healthcare data that ranged between 1998-2008. The dates
  
 ### Do the majority of patient stay for less than 7 days?
 
-The first information that I analyzed was determining whether the majority of patients stay less than 7 days. This is an important factor to help with forcasting for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
+The first information that I analyzed was determining whether the majority of patients stay less than 7 days. This is an important factor to help with forecasting for the availability for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
 
 <img src="images/Healthcare_Analysis_patient_stay.png"/>
 <img src="images/Healthcare_Analysis_patient_stay_results.png"/>
@@ -116,14 +116,7 @@ Lastly, I created a summary of the top 50 patients who who were using the most m
 
 ## Results and Recommendation
 
-
- - Do the majority of patients stay for less than 7 days at the hospital?
-  - Which medical specialties are doing the most number of procedures on average? 
-  - Is the hospital treating patients of different races differently? Specifically with the number of lab procedures done?
-  - Is there any correlation between the number of days stayed in the hospital to the number of lab procedures orders?
-  - List of all patient numbers who are African-America or have a "Up" to metformin.
-  - Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
-  - Providing a summary of the top 50 medication patients.
+Using SQL, I was able to find interesting insights to the healthcare data. I found that the average patient stay is less than 7 days with most patients staying an average of 3 days; there are 5 medical specialties that are doing most number of the procedures on average; there does not appear to be a difference in the way that different races are treated; and there appears to be a relationship between the average length of a patient's stay and the number of procedures that they receive. In addition, I was able to create a list of patients who are African-American or have a "Up" to metformin; a list of patients who had an emergency but stayed less than the average time in the hospital; and a summary of the top 50 medication patients. Using several SQL statments, I was able to find interesting information within the dataset. 
 
 ---
 
