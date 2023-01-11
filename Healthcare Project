@@ -1,51 +1,24 @@
 
-# Massachusetts Education System May Be Doomed
+# Healthcare Data Analysis
 
-<img src="images/Massachusetts_Cover.png"/>
+<img src="images/HealthCare_Analysis_Cover.png"/>
 
 ## Let's Get Started!
 
+As someone who has experience working in the healthcare field, I thought that it would be interesting to analyze some healthcare data. In this project, I used SQL to analyze the data to get some insights into healthcare date. In this project, I focus on getting insight into the following questions:
 
-
-### Key Insights
-
-After my analysis, I found that: 
-
-  - The majority of patients stay less than 7 days
-  - 
-
-
-✅ HISTOGRAMS
-
-Our health care data analyst boss wants to know what the distribution of time spent in the hospital looks like. 
-
-They're also curious to know if the majority stay less than 7 days. Once patients stay over 7 days, the hospital wants to ensure these patients are very acute.
-
-✅ HAVING
-
-Give the hospital director a list of the medical specialties that have an average number of procedure count above 2.5 with the total procedure count above 50.
-
-✅ JOIN
-
-The nurse director needs to know if we are subconsciously treating races differently. Show the average number of lab procedures broken down by race. 
-
-✅ CASE WHEN
-
-Your boss has asked you to explore the relationship between number of lab procedures and time spent in the hospital. Specifically, they asked for a few, average, and many procedure group.
-
- ✅ UNION
-
-Research needs a list of all patient numbers who are African-America or have a "Up" to metformin
-
- ✅ Subqueries + WITH (CTE's)  
-
-Provide a list of all patients who had an emergency but left the hospital faster than the average.
-
+  - Do the majority of patients stay for less than 7 days at the hospital?
+  - Which medical specialties are doing the most number of procedures on average? 
+  - Is the hospital treating patients of different races differently? Specifically with the number of lab procedures done?
+  - Is there any correlation between the number of days stayed in the hospital to the number of lab procedures orders?
+  - List of all patient numbers who are African-America or have a "Up" to metformin.
+  - Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
+  - Providing a summary of the top 50 medication patients.
 
 ---
 
 ## The Data
- I used MySQL to analyze the data. 
+I used MySQL to analyze healthcare data that ranged between 1998-2008. The dateset can be found on [Kaggle] (https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
 
 
 ---
@@ -81,7 +54,7 @@ To do this I first used the *JOIN* command to combine two tables that have a com
 
 The results show that the average number of procedures range from 41.82 - 44.46. There does not appear to be a gap between the number of procedures between each race. 
 
-### Explore the relationship between number of lab procedures and time spent in the hospital. Specifically, they asked for a few, average, and many procedure group.
+### Is there any correlation between the number of days stayed in the hospital to the number of lab procedures ordered? 
 
 I first designated a range of values that would be assigned to a patient based on the number of procedures that they had. Lab procedures ranging from:
 
@@ -105,15 +78,37 @@ The question that was initially asked was to find the relationship between the n
 The SQL statement grouped each patients based on their procedure frequency (few, average, or many) and found the average length of stay for patients within those groups. We can see that patients who had longer average stays had more procedures. 
 
 
-### Research needs a list of all patient numbers who are African-America or have a "Up" to metformin
+### List of all patient numbers who are African-America or have a "Up" to metformin.
 
-As MySQL does not support *FULL JOIN* , I used UNION operator to get the data and it will stack the results on top of each other. My first SQL statement will provide me with the patient numbers who are African American and the second part of query provides the patient number for patients who have increased their metformin dose.
+The next item I analyzed required me to use information from two different tabels. Normally, I would use one of the *JOIN* operators to combine the tables with a common primary key and then find the corresponding data. In this case I would need to use *FULL JOIN*  since I am looking to pull patients who are African-American or have "Up" to metformin and FULL JOIN would allow me to combine tables even if there are NULL values in the seccond table. Unfortunately MySQL does not support *FULL JOIN* and I nstead decided to use the *UNION* operator. The UNION operator pulls all data results from the table and stacks the results on top of each other. 
+
+In the statments below, the first SQL statement will provide me with the patient numbers who are African American and the second part of query provides the patient number for patients who have increased their metformin dose.
 
 ----image of SQL
-----image of SQL
+----image of results
 
 The list of patients is what was required to search and can then be sent back to research. 
 
+### Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
+
+The next ask was to provide a list of patients who had an emergengy with admission_type_id of 1 and stayed less than average time in the hospital. As aggregate functions can't be used directly in the WHERE clause, I used a subquery help pull the data. 
+
+-----image of SQL
+-----image of results
+
+The results of query provide a list of patients that had an emergnecy and stayed less than average time in th hospital.
+
+Similary, I could have used a CTE to pull the same results. 
+
+-----image of SQL
+-----image of results
+
+###Provide a summary for the top 50 medication patients.
+
+Lastly, I created a summary of the top 50 patients who who were using the most medications. Patients were sorted based on highest number of medications they had. Patients who had the same amount of medications were then sorted by number of lab procedures.
+
+-----image of SQL
+-----image of results
 
 
 ---
