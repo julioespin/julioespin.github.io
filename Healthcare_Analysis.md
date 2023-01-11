@@ -29,12 +29,12 @@ I used MySQL to analyze healthcare data that ranged between 1998-2008. The dates
 
 The first data point I analyzed was determining whether the majority of patients stay less than 7 days. This is an important factor to help with forcasting for new admissions. I used the SQL statement below to create a histogram for a patients length of stay.
 
--------Image SQL
--------Image results
+<img src="images/Healthcare_Analysis_patient_stay.png"/>
+<img src="images/Healthcare_Analysis_patient_stay_results.png"/>
 
 I found that the majority of patients stay at the hospital for less than 7 days, with the most of patients staying for 3 days. 
 
-Having sufficient space available is critical in determining whether a hospital can admit new patients. Determining the length of stay of patients can help with forcasting for the capability of new admissions.
+Having sufficient space available is critical in determining whether a hospital can admit new patients. Determining the average length of a patient's stay can help with forcasting for the capability of new admissions.
 
 ### What medical specialties are doing the most number of average procedures?
 
