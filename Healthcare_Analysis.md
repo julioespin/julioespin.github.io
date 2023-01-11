@@ -96,7 +96,7 @@ The next ask was to provide a list of patients who had an emergengy with admissi
 <img src="images/Healthcare_Analysis_subquery.png"/>
 <img src="images/Healthcare_Analysis_subquery_results.png"/>
 
-The results of query provide a list of patients that had an emergnecy and stayed less than average time in th hospital.
+The results of query provide a list of patients that had an emergnecy and stayed less than the average time in the hospital.
 
 Similary, I could have used a CTE to pull the same results. 
 
@@ -104,7 +104,7 @@ Similary, I could have used a CTE to pull the same results.
 <img src="images/Healthcare_Analysis_cte_results.png"/>
 
 
-###Provide a summary for the top 50 medication patients.
+### Provide a summary for the top 50 medication patients.
 
 Lastly, I created a summary of the top 50 patients who who were using the most medications. Patients were sorted based on highest number of medications they had. Patients who had the same amount of medications were then sorted by number of lab procedures.
 
