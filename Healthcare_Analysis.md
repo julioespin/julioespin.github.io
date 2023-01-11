@@ -5,7 +5,7 @@
 
 ## Let's Get Started!
 
-As someone who has experience working in the healthcare field, I thought that it would be interesting to analyze some healthcare data. In this project, I used SQL to analyze the data to get some insights into healthcare date. In this project, I focus on getting insight into the following questions:
+As someone who has experience working in the healthcare field, I thought that it would be interesting to analyze some healthcare data. In this project, I used SQL to analyze healthcare data and focused on getting insights into the following questions:
 
   - Do the majority of patients stay for less than 7 days at the hospital?
   - Which medical specialties are doing the most number of procedures on average? 
