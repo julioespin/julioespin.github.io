@@ -47,12 +47,12 @@ The results provide a short list of 5 medical specialties that are most commonly
 
 ### The nurse director needs to know if we are subconsciously treating races differently. Show the average number of lab procedures broken down by race.
 
-To do this I first used the *JOIN* command to combine two tables that have a common column and contain the information that I am looking for. I have a table that contains a patient's health and treatment, while the other table contains demographic data. These two tables are related via a column named patient_nbr that is a unique patient ID number given to every patient.
+To do this I used a *JOIN* to combine two tables that share a common column and contain the information that I am looking for. One of the tables contains patient health and treatment information, while the other table contains demographic data. These two tables are related via patient_nbr column that is a unique patient ID number given to every patient.
 
------image SQL
------image results
+<img src="images/Healthcare_Analysis_demographics.png"/>
+<img src="images/Healthcare_Analysis_demographics_results.png"/>
 
-The results show that the average number of procedures range from 41.82 - 44.46. There does not appear to be a gap between the number of procedures between each race. 
+The results show that the average number of procedures range from 41.82 - 44.46, there is an unknown race, and there does not appear to be a gap between the number of procedures between each race. 
 
 ### Is there any correlation between the number of days stayed in the hospital to the number of lab procedures ordered? 
 
