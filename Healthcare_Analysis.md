@@ -91,12 +91,12 @@ The SQL statement above provided the patient numbers for those who are African A
 
 ### Provide a list of all patients who had an emergency but stayed less than the average time in the hospital.
 
-The next ask was to provide a list of patients who had an emergengy with admission_type_id of 1 and stayed less than average time in the hospital. As aggregate functions can't be used directly in the WHERE clause, I used a subquery to pull the data. 
+The next ask was to provide a list of patients who had an emergency with admission_type_id of 1 and stayed less than average time in the hospital. As aggregate functions can't be used directly in the WHERE clause, I used a subquery to pull the data. 
 
 <img src="images/Healthcare_Analysis_subquery.png"/>
 <img src="images/Healthcare_Analysis_subquery_results.png"/>
 
-The results of query provide a list of patients that had an emergnecy and stayed less than the average time in the hospital.
+The results of query provide a list of patients that had an emergency and stayed less than the average time in the hospital.
 
 Similary, I could have used a CTE to pull the same results. 
 
@@ -106,7 +106,7 @@ Similary, I could have used a CTE to pull the same results.
 
 ### Provide a summary for the top 50 medication patients.
 
-Lastly, I created a summary of the top 50 patients who who were using the most medications. Patients were sorted based on highest number of medications they had. Patients who had the same amount of medications were then sorted by number of lab procedures.
+Lastly, I created a summary of the top 50 patients who were using the most medications. Patients were sorted based on highest number of medications they had. Patients who had the same amount of medications were then sorted by number of lab procedures.
 
 <img src="images/Healthcare_Analysis_summary.png"/>
 <img src="images/Healthcare_Analysis_summary_results.png"/>
