@@ -1,6 +1,6 @@
 # NBA Analysis
 
-<img src="images/HealthCare_Analysis_Cover.png"/>
+<img src="images/NBA_Analysis_cover.png"/>
 
 ## Let's Get Started!
 
