@@ -30,12 +30,12 @@ The first item I analyzed was the NBA players total points, assists and rebounds
 We notice that point guards have the highest points and assists while centers have the lowest. We also notice a Nikola Jokic is an outlier having greater than usual rebounds, assists, and points compared to other players in his position as a center. 
 
 
-### What medical specialties are doing the most number of average procedures?
+### What position was the most efficient at shooting 3-pointers for every team.
 
-The next item that I looked at was determining which medical specialties have the highest average number of procedures. Using the SQL statement below, I was able to find that information.
+The next item that I looked at was finding which position was the most efficient at shoooting 3-pointers for every team. To easily view this data, I created a table that identifies the average 3 point % for each position in each team.
 
-<img src="images/Healthcare_Analysis_medical_specialties.png"/>
-------image of heatmap
+<img src="images/NBA_Analysis_heatmap.png"/>
+
 
 The results provide a short list of 5 medical specialties that are most commonly used and have an average number of procedures greater than 2.5.
 
