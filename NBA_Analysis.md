@@ -19,7 +19,7 @@ I used [Tableau](https://public.tableau.com/app/profile/julio.espinoza/viz/21-22
 
 ## The Analysis
  
-### Show how different players performed on total points, total assists, & total rebounds. 
+### NBA players performance on total points, total assists, & total rebounds. 
 
 The first item I analyzed was the NBA players total points, assists and rebounds. I created a bubble plot that measures all three points of interest with assists and points being measured in the graph, rebounds measured by the size of the data point, and each color representing different player positions. 
 
