@@ -73,4 +73,3 @@ There is a lot of data that can be gathered from basketball data. I analyzed the
 ---
 
 ***I appreciate you making it to the end of the article. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/jbespinoza/).***
-je
