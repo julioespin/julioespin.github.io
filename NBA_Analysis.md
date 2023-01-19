@@ -1,4 +1,4 @@
-# NBA Analysis
+# NBA 21-22 Season Analysis
 
 <img src="images/NBA_Analysis_cover.png"/>
 
