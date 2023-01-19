@@ -4,9 +4,14 @@
 
 ## Let's Get Started!
 
-As someone who has experience in the healthcare field, I thought that it would be interesting to analyze some healthcare data. In this project, I used SQL to analyze healthcare data and focused on getting insights into the following questions:
+When I ask individuals what their favorite basketball team is, I typically hear a similar response: team 'X' because that is the area that I grew up in or been living in. I am no different. When asked the same question, I respond with "the LA Lakers because that is the area that I grew up in". 
 
-  - Do the majority of patients stay in the hospital for less than 7 days?
+In this analysis, I examine 21-22 NBA data to get some insights to the team and players data. I find that:
+
+  - Point guards generally have the highest points and assists, and Nikola Jokic is an oulier with having higher assists, rebounds and points compared to other center's.
+  - The power forward position from the Sacramento Kings had the highest average 3 point % with 50%. 
+  - The Minnesota Timberwolves had the highest total points scored and Trae Young from the Atlanta Hawks had the highest amount of points scored.
+  - Point guards have the highet number of assists with Trae Young having the highest number of assists.
 
 
 ---
@@ -46,14 +51,13 @@ I next analyzed the total points scored by each player per team by using a stack
 
 <img src="images/NBA_Analysis_barchart.png"/>
 
-The results show that the Minnesota Timberwolves had the highest total points scored with Karl-Anthony Towns scoring the most within the team with 1,818 points. After further analysis, Trae Young from the Atlanta Hawks is the player that had the highest amount of points scored with 2,155 
+The results show that the Minnesota Timberwolves had the highest total points scored with Karl-Anthony Towns scoring the most within the team with 1,818 points. After further analysis, Trae Young from the Atlanta Hawks is the player that had the highest amount of points scored with 2,155.
 
 
 ### Players with the most assists per position.
 
 The last item to analyze was identifyng the number of assists for each position and player. The treemap below is divided into five colors with each color designated for a different position and each color subdivided for each player.
 
-The tree map is divided into five colors, each representing a player position. From the data, we can see that Trae Young, a point guard, had the highest number of turnovers in the season. However, as we previously noted from the bubble chart, Trae Young also had the highest total points and assists.
 
 <img src="images/NBA_Analysis_treemap.png"/>
 
@@ -61,8 +65,9 @@ The treemap shows that point guards have the highet assists with Trae Young havi
 
 ---
 
-## Results and Recommendation
+## Results
 
+There is a lot of data that can be gathered from basketball data. I analyzed the data to gain some insights to the 21-22 NBA season and I found that: point guards score the most and have the most assists with Nikola Jokic as an oulier with having higher assists, rebounds and points compared to other center's; the power forward position from the Sacramento Kings had a 50% average for scoring for 3 pointers; the Minnesota Timberwolves had the highest total points scored and Trae Young from the Atlanta Hawks had the highest amount of points scored; and point guards have the highet number of assists with Trae Young having the highest number of assists.
 
 
 ---
