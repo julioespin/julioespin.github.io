@@ -1,7 +1,7 @@
 # My Data Analytics Portfolio
 
 ---
-## [NBA Analysis](/NBA_Analysis.md)
+## [NBA 21-22 Season Analysis](/NBA_Analysis.md)
 [<img src="images/NBA_Analysis_cover.png"/>](/NBA_Analysis.md)
 In this project I used Tableau to analyze and gain insights to the 21-22 NBA season data. Feel free to take a look and let me know what you think!
 
