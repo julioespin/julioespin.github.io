@@ -8,7 +8,7 @@ When I ask individuals what their favorite basketball team is, I typically hear 
 
 In this analysis, I examine the NBA 21-22 season data to get some insights to the teams and players data. In my analysis, I found that:
 
-  - Point guards generally have the highest points and assists, and Nikola Jokic is an oulier with having higher assists, rebounds and points compared to other center's.
+  - Point guards generally have the highest points and assists, and Nikola Jokic is an outlier with having higher assists, rebounds and points compared to other center's.
   - The power forward position from the Sacramento Kings had a 50% 3 pointer average, the highest average out of all of the teams.
   - The Minnesota Timberwolves had the highest total points scored and Trae Young from the Atlanta Hawks had the highest amount of points scored.
   - Point guards have the highest number of assists with Trae Young having the highest number of assists.
@@ -40,7 +40,7 @@ The next item that I looked at was finding which position was the most efficient
 <img src="images/NBA_Analysis_heatmap.png"/>
 
 
-The results show that the power forward from the Sacramento Kings had a 50% 3 point average which ws the highest average out of all of the teams
+The results show that the power forward from the Sacramento Kings had a 50% 3 point average which ws the highest average out of all of the teams.
 
 
 ### Break down the total points scored by each team and players.
@@ -54,7 +54,7 @@ The results show that the Minnesota Timberwolves had the highest total points sc
 
 ### Players with the most assists per position.
 
-The last item was to identify the number of assists for each position and player. The treemap below is divided into five colors with each color assigned to each position and each position is subdivided for each player that holds that position.
+The last item was to identify the number of assists for each position and player. The treemap below is divided into five colors with each color is assigned a position and each position is subdivided for each player that holds that position.
 
 
 <img src="images/NBA_Analysis_treemap.png"/>
