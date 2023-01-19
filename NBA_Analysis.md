@@ -42,21 +42,22 @@ The results show that the power forward from the Sacramento Kings had the highes
 
 ### Break down the total points scored by each team and players.
 
-
+I next analyzed the total points scored by each player per team by using a stacked bar chart. 
 
 <img src="images/NBA_Analysis_barchart.png"/>
 
-
+The results show that the Minnesota Timberwolves had the highest total points scored with Karl-Anthony Towns scoring the most within the team with 1,818 points. After further analysis, Trae Young from the Atlanta Hawks is the player that had the highest amount of points scored with 2,155 
 
 
 ### Players with the most assists per position.
 
+The last item to analyze was identifyng the number of assists for each position and player. The treemap below is divided into five colors with each color designated for a different position and each color subdivided for each player.
 
+The tree map is divided into five colors, each representing a player position. From the data, we can see that Trae Young, a point guard, had the highest number of turnovers in the season. However, as we previously noted from the bubble chart, Trae Young also had the highest total points and assists.
 
 <img src="images/NBA_Analysis_treemap.png"/>
 
-
-
+The treemap shows that point guards have the highet assists with Trae Young having the highest number of assists.
 
 ---
 
