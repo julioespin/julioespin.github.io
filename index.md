@@ -1,6 +1,11 @@
 # My Data Analytics Portfolio
 
 ---
+## [NBA Analysis](/NBA_Analysis.md)
+[<img src="images/NBA_Analysis_cover.png"/>](/NBA_Analysis.md)
+In this project I used Tableau to analyze and gain insights to the 21-22 NBA season data. Feel free to take a look and let me know what you think!
+
+---
 ## [Healthcare Data Analysis](/Healthcare_Analysis.md)
 [<img src="images/HealthCare_Analysis_Cover.png"/>](/Healthcare_Analysis.md)
 In this project I used MySQL to analyze and gain insights to healthcare data. Feel free to take a look and let me know what you think!
