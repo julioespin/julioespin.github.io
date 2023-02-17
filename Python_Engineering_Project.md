@@ -16,7 +16,7 @@ In this analysis, I examine the NBA 21-22 season data to get some insights to th
 ---
 
 ## The Data
-I used [Tableau](https://public.tableau.com/app/profile/julio.espinoza/viz/21-22NBAAnalysis/21-22NBAAnalysis) to analyze 21-22 NBA data and the dateset can be found [here](https://www.basketball-reference.com/leagues/NBA_2022_totals.html).
+I used a browser based Python called Deepnote to analyze mining information from March 2017 to September 2017 and the dateset can be found on [Kaggle](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process?resource=download).
 
 ---
 
