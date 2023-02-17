@@ -16,7 +16,7 @@ In this analysis, I examine the NBA 21-22 season data to get some insights to th
 ---
 
 ## The Data
-I used a browser based Python called Deepnote to analyze mining information from March 2017 to September 2017 and the dateset can be found on [Kaggle](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process?resource=download).
+I used Deepnote, a browser IDE (Interactive Development Environment) that allows the use of Python, to analyze mining information from March 2017 to September 2017. The dateset can be found on [Kaggle](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process?resource=download).
 
 ---
 
@@ -27,7 +27,7 @@ I used a browser based Python called Deepnote to analyze mining information from
 The first item I analyzed was the NBA players total points, assists and rebounds. I created a bubble plot that measures all three points of interest with assists and points being measured in the graph, rebounds measured by the size of the data point, and each color representing different player positions. 
 
 
-[<img src="images/NBA_Analysis_bubble.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/21-22NBAAnalysis/21-22NBAAnalysis)
+-------picture
 
 
 The graph shows that point guards have the highest points and assists while centers have the lowest. Nikola Jokic appears to be an outlier having greater than usual rebounds, assists, and points compared to other players in his position as a center. 
@@ -37,7 +37,7 @@ The graph shows that point guards have the highest points and assists while cent
 
 The next item that I looked at was finding which position was the most efficient at shooting 3-pointers for every team. To easily view this data, I created a table that identifies the average 3 point % for each position in each team.
 
-[<img src="images/NBA_Analysis_heatmap.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/21-22NBAAnalysis/21-22NBAAnalysishttps://public.tableau.com/app/profile/julio.espinoza/viz/21-22NBAAnalysis/21-22NBAAnalysis)
+-------picture
 
 
 The results show that the power forward from the Sacramento Kings had a 50% 3 point average which ws the highest average out of all of the teams.
@@ -47,7 +47,7 @@ The results show that the power forward from the Sacramento Kings had a 50% 3 po
 
 I next analyzed the total points scored by each player per team by using a stacked bar chart. 
 
-[<img src="images/NBA_Analysis_barchart.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/21-22NBAAnalysis/21-22NBAAnalysis)
+------picture
 
 The results show that the Minnesota Timberwolves had the highest total points scored with Karl-Anthony Towns scoring the most within the team with 1,818 points. After further analysis, Trae Young from the Atlanta Hawks is the player that had the highest amount of points scored with 2,155.
 
@@ -57,7 +57,7 @@ The results show that the Minnesota Timberwolves had the highest total points sc
 The last item was to identify the number of assists for each position and player. The treemap below is divided into five colors with each color is assigned a position and each position is subdivided for each player that holds that position.
 
 
-[<img src="images/NBA_Analysis_treemap.png"/>](https://public.tableau.com/app/profile/julio.espinoza/viz/21-22NBAAnalysis/21-22NBAAnalysis)
+------picture
 
 The treemap shows that point guards have the highet assists with Trae Young having the highest number of assists.
 
