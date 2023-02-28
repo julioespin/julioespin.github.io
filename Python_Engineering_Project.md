@@ -1,12 +1,12 @@
-# NBA 21-22 Season Analysis
+# NBA 21-22 Season Analysis - Purifying Iron from Dirty Data
 
 <img src="images/NBA_Analysis_cover.png"/>
 
 ## Let's Get Started!
 
-When I ask individuals what their favorite basketball team is, I typically hear a similar response: team 'X' because that is the area that I grew up in or been living in. I am no different. When asked the same question, I respond with: the LA Lakers because that is the area that I grew up in. 
+Picture this: You are out in the field and collect a sample of dirt and are curious to know how much of your sample contains iron? How would you separate iron from impurities of the sample? The answer?? **flotation**. In the mining industry, flotation is a process used to purify minerals from unwanted materials. This process involves moving the sample through 
 
-In this analysis, I examine the NBA 21-22 season data to get some insights to the teams and players data. In my analysis, I found that:
+In this analysis, I examine the % Iron Concentrare from a flotation plant where it's main goal is to separate iron from dirt so that pure iron can be retrieved.  In my analysis, I found that
 
   - Point guards generally have the highest points and assists, and Nikola Jokic is an outlier with having higher assists, rebounds and points compared to other center's.
   - The power forward position from the Sacramento Kings had a 50% 3 pointer average, the highest average out of all of the teams.
