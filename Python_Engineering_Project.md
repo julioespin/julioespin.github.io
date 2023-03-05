@@ -4,9 +4,10 @@
 
 ## Let's Get Started!
 
-Picture this: You are out in the field and collect a sample of dirt and are curious to know how much of your sample contains iron? How would you separate iron from impurities of the sample? The answer?? **flotation**. In the mining industry, flotation is a process used to purify minerals from unwanted materials. This process involves moving the sample through 
+Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repefll water. The mixture is then injected with air bubbles that causes the the material of interest (the one with the coating agent) to float to the top and creates a froth. The froth can be then separated from the rest of the material.  
 
-In this analysis, I examine the % Iron Concentrare from a flotation plant where it's main goal is to separate iron from dirt so that pure iron can be retrieved.  In my analysis, I found that
+
+In this analysis, I examine the % Iron Concentrare from a flotation plant to determine the purity of the iron sample. In my analysis, I found that
 
   - Point guards generally have the highest points and assists, and Nikola Jokic is an outlier with having higher assists, rebounds and points compared to other center's.
   - The power forward position from the Sacramento Kings had a 50% 3 pointer average, the highest average out of all of the teams.
