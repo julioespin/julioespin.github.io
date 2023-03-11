@@ -1,4 +1,4 @@
-# How pure is pure? Purifying Iron from Dirty Data
+# How Pure is Pure? Purifying Iron from Dirty Data
 
 <img src="images/NBA_Analysis_cover.png"/>
 
@@ -29,12 +29,17 @@ Before I could start analyzing my the data, I had to first upload my CSV file to
 
 <img src="images/Python_Engineering_Project_import_libraries.png"/> 
 
-I used Pandas for data manipulation, and Seaborn and Matplotlib for data visualization.
+I used Pandas for data manipulation, Seaborn and Matplotlib for data visualization.
 
 ### Connecting the Data
 
--------picture
+The next move was to connect python to the actual data. I used a dataframe to read the CSV file using Pandas and then get a preview of te data for the first couple of lines of the data.
 
+<img src="images/Python_Engineering_Project_df_read.png"/> 
+
+<img src="images/Python_Engineering_Project_preview.png"/> 
+
+### Overview of the data - date/size of table
 
 The graph shows that point guards have the highest points and assists while centers have the lowest. Nikola Jokic appears to be an outlier having greater than usual rebounds, assists, and points compared to other players in his position as a center. 
 
