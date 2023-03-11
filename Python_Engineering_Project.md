@@ -1,4 +1,4 @@
-# NBA 21-22 Season Analysis - Purifying Iron from Dirty Data
+# How pure is pure? Purifying Iron from Dirty Data
 
 <img src="images/NBA_Analysis_cover.png"/>
 
@@ -23,10 +23,15 @@ I used Deepnote, a browser IDE (Interactive Development Environment) that allows
 
 ## The Analysis
  
-### NBA players performance on total points, total assists, & total rebounds. 
+### Installing and Importing the Libraries 
 
-The first item I analyzed was the NBA players total points, assists and rebounds. I created a bubble plot that measures all three points of interest with assists and points being measured in the graph, rebounds measured by the size of the data point, and each color representing different player positions. 
+Before I could start analyzing my the data, I had to first upload my CSV file to Deepnote, then install and import the libraries that I was going to use. To install and import the libraries, I used the following code:
 
+<img src="images/Python_Engineering_Project_import_libraries.png"/> 
+
+I used Pandas for data manipulation, and Seaborn and Matplotlib for data visualization.
+
+### Connecting the Data
 
 -------picture
 
