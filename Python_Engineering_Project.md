@@ -33,44 +33,42 @@ I used Pandas for data manipulation, Seaborn and Matplotlib for data visualizati
 
 ### Connecting the Data
 
-The next move was to connect python to the actual data. I used a dataframe to read the CSV file using Pandas and then get a preview of te data for the first couple of lines of the data.
+The next move was to connect python to the actual data. I used a dataframe to read the CSV file using Pandas and then preview the first couple of lines of the data.
 
 <img src="images/Python_Engineering_Project_df_read.png"/> 
 
 <img src="images/Python_Engineering_Project_preview.png"/> 
 
-### Overview of the data - date/size of table
+### Basic Analysis and Cleanup
 
-The graph shows that point guards have the highest points and assists while centers have the lowest. Nikola Jokic appears to be an outlier having greater than usual rebounds, assists, and points compared to other players in his position as a center. 
+For an initial anlysis of the data, I am curious to know how many rows and columns of data we have. 
 
+<img src="images/Python_Engineering_Project_shape.png"/> 
 
-### What position was the most efficient at shooting 3-pointers for every team?
+<img src="images/Python_Engineering_Project_shape_answer.png"/> 
 
-The next item that I looked at was finding which position was the most efficient at shooting 3-pointers for every team. To easily view this data, I created a table that identifies the average 3 point % for each position in each team.
-
--------picture
-
-
-The results show that the power forward from the Sacramento Kings had a 50% 3 point average which ws the highest average out of all of the teams.
+I find that there are 737,453 rows and 24 columns in this dataset.
 
 
-### Break down the total points scored by each team and players.
+In an earlier preview of the data, I find that a date column is provided. When dates are provided, I usually find that they are not properly imported and require changing it to the correct variable type. I used the following code to first check the variable type for the date column. 
 
-I next analyzed the total points scored by each player per team by using a stacked bar chart. 
+<img src="images/Python_Engineering_Project_date_type.png"/> 
+<img src="images/Python_Engineering_Project_date_type_answer.png"/> 
 
-------picture
+As expected, the variable type for date will need to be adjusted.
 
-The results show that the Minnesota Timberwolves had the highest total points scored with Karl-Anthony Towns scoring the most within the team with 1,818 points. After further analysis, Trae Young from the Atlanta Hawks is the player that had the highest amount of points scored with 2,155.
+<img src="images/Python_Engineering_Project_date_type_change.png"/> 
+
+We can use the following code to confirm that the data type has changed.
+
+<img src="images/Python_Engineering_Project_date_type_change_confirm.png"/> 
+<img src="images/Python_Engineering_Project_date_type_change_confirm_answer.png"/> 
+----picture
+
+### Descriptive Analytics
 
 
-### Players with the most assists per position.
-
-The last item was to identify the number of assists for each position and player. The treemap below is divided into five colors with each color is assigned a position and each position is subdivided for each player that holds that position.
-
-
-------picture
-
-The treemap shows that point guards have the highet assists with Trae Young having the highest number of assists.
+#
 
 ---
 
