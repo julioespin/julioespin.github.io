@@ -63,12 +63,16 @@ We can use the following code to confirm that the data type has changed.
 
 <img src="images/Python_Engineering_Project_date_type_change_confirm.png"/> 
 <img src="images/Python_Engineering_Project_date_type_change_confirm_answer.png"/> 
-----picture
+
 
 ### Descriptive Analytics
 
+Now that the data is ready for further analysis, I first retrieve a statistical summary for each of the columns.
 
-#
+<img src="images/Python_Engineering_Project_descriptive_analytics.png"/> 
+<img src="images/Python_Engineering_Project_descriptive_analytics_answer.png"/> 
+
+#Our boss says something weird happened on June 1, 2017 & wants us to investigate. 
 
 ---
 
