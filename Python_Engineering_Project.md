@@ -67,12 +67,20 @@ We can use the following code to confirm that the data type has changed.
 
 ### Descriptive Analytics
 
-Now that the data is ready for further analysis, I first retrieve a statistical summary for each of the columns.
+Now that the data is ready for further analysis, I first retrieved a statistical summary for each of the columns.
 
 <img src="images/Python_Engineering_Project_descriptive_analytics.png"/> 
 <img src="images/Python_Engineering_Project_descriptive_analytics_answer.png"/> 
 
-#Our boss says something weird happened on June 1, 2017 & wants us to investigate. 
+We are asked to take a closer look at the data from June 1, 2017 and focus on specific columns. I start by first narrowing the data to the specific date.
+
+<img src="images/Python_Engineering_Project_df_june.png"/> 
+<img src="images/Python_Engineering_Project_df_june_answer.png"/> 
+
+Now we can filter for the specific columns. 
+
+<img src="images/Python_Engineering_Project_june_important.png"/> 
+<img src="images/Python_Engineering_Project_june_important_answer.png"/> 
 
 ---
 
