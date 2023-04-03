@@ -82,6 +82,20 @@ Now we can filter for the specific columns.
 <img src="images/Python_Engineering_Project_june_important.png"/> 
 <img src="images/Python_Engineering_Project_june_important_answer.png"/> 
 
+This data doesn't tell us much, but I can now use the filtered data to find out how this data relates to each other. I created the following scatterplot with Seaborn to see how the data relates.
+
+<img src="images/Python_Engineering_Project_scatterplot.png"/> 
+<img src="images/Python_Engineering_Project_scatterplot_results.png"/> 
+
+I don't see any relation between any of the variables. Normally, I would want to see some sort of shape, but I don't see anything that stands out. To confirm whether there is a relation, I created a correlation matrix.
+
+<img src="images/Python_Engineering_Project_correlation.png"/> 
+<img src="images/Python_Engineering_Project_correlation_results.png"/> 
+
+Again I notice that the correlation between each variable is very low. Correlations range from -1 to 1 and a number that is close to either end means that theres is a correlation. 
+
+This is odd to see because we should expect to see the % Iron Concentrate to have a negative correlation with % Silica Concentrate. As iron is separated and purified from the other elements, the % Silica Concentrate measured from the iron sample should decrease. Although the correlation matrix shows a negative value, indicating a negative correlation, the correlation coefficient is not significant to show that there is correlation between the variables.
+
 
 
 ---
