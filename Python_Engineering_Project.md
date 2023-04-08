@@ -97,6 +97,14 @@ Again I notice that the correlation between each variable is very low. Correlati
 This is odd to see because we should expect to see the % Iron Concentrate to have a negative correlation with % Silica Concentrate. As iron is separated and purified from the other elements, the % Silica Concentrate measured from the iron sample should decrease. Although the correlation matrix shows a negative value, indicating a negative correlation, the correlation coefficient is not significant to show that there is correlation between the variables.
 
 
+The last thing I did was create a line plot for each of the important variables.
+
+<img src="images/Python_Engineering_Project_graphs.png"/> 
+<img src="images/Python_Engineering_Project_grapsh_iron conc.png"/> 
+<img src="images/Python_Engineering_Project_graphs_silica conc.png"/> 
+<img src="images/Python_Engineering_Project_graphs_ph.png"/> 
+<img src="images/Python_Engineering_Project_graphs_float column.png"/> 
+
 
 ---
 
