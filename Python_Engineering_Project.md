@@ -4,7 +4,7 @@
 
 ## Let's Get Started!
 
-Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repefll water. The mixture is then injected with air bubbles that causes the material of interest (the one with the coating agent) to float towards the top and creates a froth. The froth can be then separated from the rest of the material.  
+Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repefll water. The mixture is then injected with air bubbles that causes the material of interest (the one with the coating agent) to float towards the top and creates a froth. The froth is then separated from the rest of the material.  
 
 
 In this analysis, I examine the % Iron Concentrare from a flotation plant to determine the purity of the iron sample. In my analysis, I found that
@@ -97,13 +97,20 @@ Again I notice that the correlation between each variable is very low. Correlati
 This is odd to see because we should expect to see the % Iron Concentrate to have a negative correlation with % Silica Concentrate. As iron is separated and purified from the other elements, the % Silica Concentrate measured from the iron sample should decrease. Although the correlation matrix shows a negative value, indicating a negative correlation, the correlation coefficient is not significant to show that there is correlation between the variables.
 
 
-The last thing I did was create a line plot for each of the important variables.
+The last thing was to create a line plot for each of the important variables using a for loop to see how the variables change throughout the day. The for loop allows me to repeat a set of intstructions until the set is complete
 
 <img src="images/Python_Engineering_Project_graphs.png"/> 
 <img src="images/Python_Engineering_Project_grapsh_iron conc.png"/> 
 <img src="images/Python_Engineering_Project_graphs_silica conc.png"/> 
 <img src="images/Python_Engineering_Project_graphs_ph.png"/> 
 <img src="images/Python_Engineering_Project_graphs_float column.png"/> 
+
+As expected, we see that as iron concentrate increases, silica concentraate decreases. We also see that all of the variables vary throughout the day. Something that does stand out is the float column 05 level that tkaes a huge dip at 1800 when the levels are otherwise consistent. Float column level measures the froth level (measured in mm) in the flotation cell that gives us the thickness of the floats in the flotation. 
+
+As float column values decrease, we see a decrease in the other variables since there is less of a final product being produced. Something must have happened at 1800 that affected the float column and should be further investigated.
+
+
+
 
 
 ---
