@@ -4,14 +4,15 @@
 
 ## Let's Get Started!
 
-Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repell water. The mixture is then injected with air bubbles that causes the material of interest (the one with the coating agent) to float towards the top and creates a froth. The froth is then separated from the rest of the material.  
+Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. 
 
+In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repell water. The mixture is then injected with air bubbles that causes the material of interest (the one with the coating agent) to float towards the top and creates a froth. The froth is then separated from the rest of the material.  
 
 In this analysis, I examine the % Iron Concentrare from a flotation plant to determine the purity of the iron sample. In my analysis, I found that
 
-  - There is no relationship visually seen between each variables when looking at the scatterplots and this is verified with the correlation coefficient.
+  - There is no relationship visually seen between each variables when looking at scatterplots and this is verified with the correlation coefficient.
   - There is a low negative correlation between % iron concentrate and % silica concentrate on June 1, 2017.
-  - Someting odd happended with the float column levels on June 1, 2017 at 1800. F
+  - Someting odd happended with the float column levels on June 1, 2017 at 1800. 
 
 ---
 
@@ -40,7 +41,7 @@ The next move was to connect python to the actual data. I used a dataframe to re
 
 ### Basic Analysis and Cleanup
 
-For an initial anlysis of the data, I am curious to know how many rows and columns of data we have. 
+For an initial analysis of the data, I am curious to know how many rows and columns of data we have. 
 
 <img src="images/Python_Engineering_Project_shape.png"/> 
 
@@ -96,7 +97,7 @@ Again I notice that the correlation between each variable is very low. Correlati
 This is odd to see because we should expect to see the % Iron Concentrate to have a strong negative correlation with % Silica Concentrate. As iron is separated and purified from the other elements, the % Silica Concentrate measured from the iron sample should decrease. Although the correlation matrix shows a negative value, indicating a negative correlation, the correlation coefficient is not significant to show that there is a strong correlation between the variables.
 
 
-The last thing was to create a line plot for each of the important variables using a for loop to see how the variables change throughout the day. The for loop allows me to repeat a set of intstructions until the set is complete
+The last thing was to create a line plot for each of the important variables using a for loop to see how the variables change throughout the day. The for loop allows me to repeat a set of intstructions until the set is complete.
 
 <img src="images/Python_Engineering_Project_graphs.png"/> 
 <img src="images/Python_Engineering_Project_grapsh_iron conc.png"/> 
@@ -104,7 +105,7 @@ The last thing was to create a line plot for each of the important variables usi
 <img src="images/Python_Engineering_Project_graphs_ph.png"/> 
 <img src="images/Python_Engineering_Project_graphs_float column.png"/> 
 
-As expected, we see that as iron concentrate increases, silica concentrate decreases. We also see that all of the variables vary throughout the day. Something that does stand out is the float column 05 level takes a huge dip at 1800 when the levels are otherwise consistent. Float column level provides the froth level (measured in mm) in the flotation cell and measures the thickness of the floats in the flotation. 
+As expected, we see that as iron concentrate increases, silica concentrate decreases. We also see that all of the variables vary throughout the day. Something that does stand out is the float column 05 level takes a huge dip at 1800 when the levels are otherwise consistent. Float column level provides the froth level (measured in mm) in the flotation cell and measures the thickness of the floats. 
 
 As float column values decrease, we see a decrease in the other variables since there is less of a final product being produced. Something must have happened at 1800 that affected the float column and should be further investigated.
 
@@ -112,7 +113,7 @@ As float column values decrease, we see a decrease in the other variables since 
 
 ## Results
 
-Mining for minerals is important to help with developing and incorporating them with new technologies and that we use in everyday life. In this analysis, I find that there is little to no relationship between each variable as shown with scatterlots and correlation coefficient. I also find that there is a negative correlation between % iron concentrate and % silica concentrate on June 1, 2017. This is odd to see because we would expect to see a strong negative correlation between these two variables. As % iron concentrate increases, we should expect to see a decrease in % silica concentrate. I also find that someting odd happened with the float column levels on June 1, 2017 at 1800. Further analysis should be done to determine what happened during this time. 
+In this analysis, I find that there is little to no relationship between each variable as shown with scatterlots and correlation coefficient for the data on June 1, 2017. I also find that there is a low negative correlation between % iron concentrate and % silica concentrate. This is odd to see because we would expect to see a strong negative correlation between these two variables. As % iron concentrate increases, we should expect to see a decrease in % silica concentrate. I also find that something odd happened with the float column levels on June 1, 2017 at 1800. Further analysis should be done to determine what happened during this time. 
 
 ---
 
