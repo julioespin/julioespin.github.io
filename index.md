@@ -1,5 +1,5 @@
 # My Data Analytics Portfolio
---
+---
 ## [How Pure is Pure? Purifying Date from Dirty Data](/Python_Engineering_Project.md)
 [<img src="images/Python_Engineering_Project_Cover.png"/>](/Python_Engineering_Project.md)
 In this project I used Python to analyze mining data to gain insight in the production of iron from a froth flotation process.
