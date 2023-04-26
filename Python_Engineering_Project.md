@@ -1,18 +1,17 @@
 # How Pure is Pure? Purifying Iron from Dirty Data
 
-<img src="images/NBA_Analysis_cover.png"/>
+<img src="images/Python_Engineering_Project_Cover.png"/>
 
 ## Let's Get Started!
 
-Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repefll water. The mixture is then injected with air bubbles that causes the material of interest (the one with the coating agent) to float towards the top and creates a froth. The froth is then separated from the rest of the material.  
+Picture this: You are out in the field and collect a sample of dirt but you are curious to know how much of your sample contains iron? You start to think about ways to separate iron from other impurities of the sample and then remember an article that discussed this process. The answer? **froth flotation**. In the mining industry, froth flotation is a process used to purify minerals from unwanted materials. This process involves mixing the sample in an aqueous solution and then coating the mineral with a coating agent that makes them repell water. The mixture is then injected with air bubbles that causes the material of interest (the one with the coating agent) to float towards the top and creates a froth. The froth is then separated from the rest of the material.  
 
 
 In this analysis, I examine the % Iron Concentrare from a flotation plant to determine the purity of the iron sample. In my analysis, I found that
 
-  - Point guards generally have the highest points and assists, and Nikola Jokic is an outlier with having higher assists, rebounds and points compared to other center's.
-  - The power forward position from the Sacramento Kings had a 50% 3 pointer average, the highest average out of all of the teams.
-  - The Minnesota Timberwolves had the highest total points scored and Trae Young from the Atlanta Hawks had the highest amount of points scored.
-  - Point guards have the highest number of assists with Trae Young having the highest number of assists.
+  - There is no relationship visually seen between each variables when looking at the scatterplots and this is verified with the correlation coefficient.
+  - There is a low negative correlation between % iron concentrate and % silica concentrate on June 1, 2017.
+  - Someting odd happended with the float column levels on June 1, 2017 at 1800. F
 
 ---
 
@@ -92,9 +91,9 @@ I don't see any relation between any of the variables. Normally, I would want to
 <img src="images/Python_Engineering_Project_correlation.png"/> 
 <img src="images/Python_Engineering_Project_correlation_results.png"/> 
 
-Again I notice that the correlation between each variable is very low. Correlations range from -1 to 1 and a number that is close to either end means that theres is a correlation. 
+Again I notice that the correlation between each variable is very low. Correlations range from -1 to 1 and a number that is close to either end means that theres is a strong correlation. 
 
-This is odd to see because we should expect to see the % Iron Concentrate to have a negative correlation with % Silica Concentrate. As iron is separated and purified from the other elements, the % Silica Concentrate measured from the iron sample should decrease. Although the correlation matrix shows a negative value, indicating a negative correlation, the correlation coefficient is not significant to show that there is correlation between the variables.
+This is odd to see because we should expect to see the % Iron Concentrate to have a strong negative correlation with % Silica Concentrate. As iron is separated and purified from the other elements, the % Silica Concentrate measured from the iron sample should decrease. Although the correlation matrix shows a negative value, indicating a negative correlation, the correlation coefficient is not significant to show that there is a strong correlation between the variables.
 
 
 The last thing was to create a line plot for each of the important variables using a for loop to see how the variables change throughout the day. The for loop allows me to repeat a set of intstructions until the set is complete
@@ -105,20 +104,15 @@ The last thing was to create a line plot for each of the important variables usi
 <img src="images/Python_Engineering_Project_graphs_ph.png"/> 
 <img src="images/Python_Engineering_Project_graphs_float column.png"/> 
 
-As expected, we see that as iron concentrate increases, silica concentraate decreases. We also see that all of the variables vary throughout the day. Something that does stand out is the float column 05 level that tkaes a huge dip at 1800 when the levels are otherwise consistent. Float column level measures the froth level (measured in mm) in the flotation cell that gives us the thickness of the floats in the flotation. 
+As expected, we see that as iron concentrate increases, silica concentrate decreases. We also see that all of the variables vary throughout the day. Something that does stand out is the float column 05 level takes a huge dip at 1800 when the levels are otherwise consistent. Float column level provides the froth level (measured in mm) in the flotation cell and measures the thickness of the floats in the flotation. 
 
 As float column values decrease, we see a decrease in the other variables since there is less of a final product being produced. Something must have happened at 1800 that affected the float column and should be further investigated.
-
-
-
-
 
 ---
 
 ## Results
 
-There is a lot of data that can be gathered from basketball data. I analyzed the data to gain some insights to the NBA 21-22 season and I found that: point guards score the most and have the most assists, with Nikola Jokic as an outlier having higher assists, rebounds and points compared to other center's; the power forward position from the Sacramento Kings had a 50% average for 3 pointers; the Minnesota Timberwolves had the highest total points scored and Trae Young from the Atlanta Hawks is the player that scored the most; and point guards have the highest number of assists with Trae Young having the highest number of assists.
-
+Mining for minerals is important to help with developing and incorporating them with new technologies and that we use in everyday life. In this analysis, I find that there is little to no relationship between each variable as shown with scatterlots and correlation coefficient. I also find that there is a negative correlation between % iron concentrate and % silica concentrate on June 1, 2017. This is odd to see because we would expect to see a strong negative correlation between these two variables. As % iron concentrate increases, we should expect to see a decrease in % silica concentrate. I also find that someting odd happened with the float column levels on June 1, 2017 at 1800. Further analysis should be done to determine what happened during this time. 
 
 ---
 
