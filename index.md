@@ -25,6 +25,13 @@ In this project I take a look at the International Development Association (IDA)
 Check out this article about my analysis of the Massachusetts education system using Tableau. We dive into different KPI's that affect college attendance.
 
 ---
-## [SQL Projects](https://github.com/julioespin/SQL)
+## [DoorDash Analysis](https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/)
+[<img src="images/DoorDash Analytics.png"/>](https://www.linkedin.com/pulse/doordash-marketing-analysis-julio-espinoza/)
+Check out this article about my analysis of DoorDash using Excel. We look at a DoorDash dataset to learn about their sales and how marketing campaigns affect their sales.
 
-## [Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
+---
+## Other Projects:
+
+# [SQL Projects](https://github.com/julioespin/SQL)
+
+# [Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
