@@ -27,4 +27,4 @@ Check out this article about my analysis of the Massachusetts education system u
 ---
 [SQL Projects](https://github.com/julioespin/SQL)
 
-[Tableaue Projects](https://public.tableau.com/app/profile/julio.espinoza)
+[Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
