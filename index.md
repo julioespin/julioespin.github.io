@@ -20,7 +20,7 @@ In this project I used MySQL to analyze and gain insights to healthcare data. Fe
 In this project I take a look at the International Development Association (IDA), part of the World Bank, dataset using SQL to analyze different KPIs requested by the stakeholder. Check it out and let me know what you think!
 
 ---
-## [Massachusetts Education System May Be Doomed](/Massachusetts_School_Analysis.md)
+## [Massachusetts Education System Analysis](/Massachusetts_School_Analysis.md)
 [<img src="images/Massachusetts_Cover.png"/>](/Massachusetts_School_Analysis.md)
 Check out this article about my analysis of the Massachusetts education system using Tableau. We dive into different KPI's that affect college attendance.
 
