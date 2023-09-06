@@ -32,6 +32,6 @@ Check out this article about my analysis of DoorDash using Excel. We look at a D
 ---
 ## Other Projects:
 
-# [SQL Projects](https://github.com/julioespin/SQL)
+### [SQL Projects](https://github.com/julioespin/SQL)
 
-# [Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
+### [Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
