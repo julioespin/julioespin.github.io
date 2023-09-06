@@ -30,4 +30,4 @@ Check out this article about my analysis of the Massachusetts education system u
 DoorDash analysis to learn about their sales and how marketing campaigns affect their sales.
 
 ---
-## [World Covid Data](https://public.tableau.com/app/profile/julio.espinoza/viz/WorldCovidData_16570601864340/WorldCovidData))
+## [World Covid Data](https://public.tableau.com/app/profile/julio.espinoza/viz/WorldCovidData_16570601864340/WorldCovidData)
