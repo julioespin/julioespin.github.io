@@ -25,6 +25,6 @@ In this project I take a look at the International Development Association (IDA)
 Check out this article about my analysis of the Massachusetts education system using Tableau. We dive into different KPI's that affect college attendance.
 
 ---
-[SQL Projects](https://github.com/julioespin/SQL)
+## [SQL Projects](https://github.com/julioespin/SQL)
 
-[Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
+## [Tableau Projects](https://public.tableau.com/app/profile/julio.espinoza)
